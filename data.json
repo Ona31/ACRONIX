@@ -41,12 +41,7 @@
     "description": "Cascading Style Sheets : langage utilisé pour styliser les pages web.",
     "link": "https://fr.wikipedia.org/wiki/Cascading_Style_Sheets"
   },
-  {
-    "type": "acronyme",
-    "title": "JSON",
-    "description": "JavaScript Object Notation : format de données léger et facile à lire pour l’échange de données.",
-    "link": "https://fr.wikipedia.org/wiki/JSON"
-  },
+
   {
     "type": "personne",
     "title": "Grace Hopper",
