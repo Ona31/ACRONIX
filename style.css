@@ -108,12 +108,12 @@
         justify-content: center;
         align-items: center;
         padding: 1rem ;
-        width: 60%;
+        width: 50%;
     }
     .intro p{
         text-align: center;
     }
-    .intro p strong{
+  strong{
         color: var(--var-primary);
     }
   .input{
