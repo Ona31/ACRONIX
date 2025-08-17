@@ -122,7 +122,6 @@
     border-radius: 50px;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: nowrap;
 
   }
   input{
@@ -209,20 +208,17 @@
     .input {
         width: 90%;
         padding: 0.5rem;
-        flex-wrap: nowrap;
     }
 
     input {
         padding: 0.8rem 0;
-        width: 50%;
-        margin: 0;
+        width: 75%;
     }
 
     #submit {
         padding: 0.8rem;
         justify-content: center;
         align-items: center;
-        margin: 0;
     }
 
     .resultat {
@@ -256,7 +252,7 @@
     }
 
     .input {
-        flex-direction: column;
+        
         gap: 0.5rem;
         padding: 0.5rem;
     }
