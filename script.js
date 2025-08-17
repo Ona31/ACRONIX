@@ -80,3 +80,24 @@ searchInput.addEventListener("input", () => {
     search(query);
   }, 300);
 });
+// Récupération des éléments
+const devButton = document.getElementById("devButton");
+const modal = document.getElementById("devModal");
+const closeBtn = document.querySelector(".modal .close");
+
+// Ouvrir modal
+devButton.addEventListener("click", () => {
+  modal.style.display = "block";
+});
+
+// Fermer modal
+closeBtn.addEventListener("click", () => {
+  modal.style.display = "none";
+});
+
+// Fermer modal si clic en dehors
+window.addEventListener("click", (e) => {
+  if(e.target === modal){
+    modal.style.display = "none";
+  }
+});
