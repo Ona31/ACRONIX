@@ -47,7 +47,7 @@ function render(list) {
         <div class="title">${item.title}</div>
         <div class="type">${item.type}</div>
         <div class="description">${item.description}</div>
-       <a href=${item.link}><i class="fas fa-link"></i>Aller sur le  site pour voir plus des descriptions
+       <a href=${item.link}><i class="fas fa-link"></i>Aller sur le  site pour voir plus des desc
 </a>
       </div>
     `;
