@@ -181,3 +181,101 @@
 ::-webkit-scrollbar{
     display: none;
 }
+
+
+/* =================== RESPONSIVE POUR SMARTPHONE =================== */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 1rem 2rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .logo h1 {
+        font-size: 1.2rem;
+    }
+
+    main {
+        padding-top: 4rem;
+    }
+
+    .intro {
+        width: 90%;
+        padding: 0.5rem;
+    }
+
+    .input {
+        width: 90%;
+        padding: 0.5rem;
+    }
+
+    input {
+        padding: 0.8rem 1rem;
+        width: 75%;
+    }
+
+    #submit {
+        padding: 0.8rem;
+    }
+
+    .resultat {
+        width: 90%;
+        margin: 1rem 0;
+        padding: 0.8rem;
+    }
+
+    .card {
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+
+    .card .title {
+        font-size: 1.1rem;
+    }
+
+    p, .card .description {
+        font-size: 14px;
+    }
+}
+
+/* Pour les très petits écrans (<480px) */
+@media screen and (max-width: 480px) {
+    header {
+        padding: 0.8rem 1rem;
+    }
+
+    .logo h1 {
+        font-size: 1rem;
+    }
+
+    .input {
+        flex-direction: column;
+        gap: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    input {
+        width: 100%;
+        padding: 0.6rem 0.8rem;
+    }
+
+    #submit {
+        width: 50px;
+        height: 50px;
+        padding: 0;
+    }
+
+    .resultat {
+        width: 95%;
+        padding: 0.5rem;
+    }
+
+    .card {
+        padding: 0.8rem;
+    }
+
+    p, .card .description {
+        font-size: 13px;
+    }
+}
