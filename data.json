@@ -1,0 +1,77 @@
+[
+  {
+    "type": "mot",
+    "title": "Algorithme",
+    "description": "Suite d’instructions permettant de résoudre un problème."
+  },
+  {
+    "type": "acronyme",
+    "title": "API",
+    "description": "Application Programming Interface : interface permettant à deux logiciels de communiquer."
+  },
+  {
+    "type": "acronyme",
+    "title": "HTTP",
+    "description": "HyperText Transfer Protocol : protocole de communication du web."
+  },
+  {
+    "type": "personne",
+    "title": "Alan Turing",
+    "description": "Pionnier de l’informatique et de la théorie de la calculabilité."
+  },
+  {
+    "type": "mot",
+    "title": "Variable",
+    "description": "Espace mémoire permettant de stocker une valeur qui peut changer."
+  },
+  {
+    "type": "mot",
+    "title": "Boucle",
+    "description": "Structure de contrôle qui répète un bloc d’instructions plusieurs fois."
+  },
+  {
+    "type": "acronyme",
+    "title": "CSS",
+    "description": "Cascading Style Sheets : langage utilisé pour styliser les pages web."
+  },
+  {
+    "type": "acronyme",
+    "title": "JSON",
+    "description": "JavaScript Object Notation : format de données léger et facile à lire pour l’échange de données."
+  },
+  {
+    "type": "personne",
+    "title": "Grace Hopper",
+    "description": "Informaticienne américaine, pionnière du langage COBOL et de la programmation."
+  },
+  {
+    "type": "mot",
+    "title": "Compilation",
+    "description": "Processus de traduction du code source en code exécutable par l’ordinateur."
+  },
+  {
+    "type": "acronyme",
+    "title": "SQL",
+    "description": "Structured Query Language : langage pour interroger et manipuler les bases de données."
+  },
+  {
+    "type": "mot",
+    "title": "Serveur",
+    "description": "Ordinateur ou logiciel qui fournit des services ou des ressources à d’autres ordinateurs (clients)."
+  },
+  {
+    "type": "mot",
+    "title": "Client",
+    "description": "Ordinateur ou logiciel qui demande des services ou ressources à un serveur."
+  },
+  {
+    "type": "acronyme",
+    "title": "IP",
+    "description": "Internet Protocol : protocole permettant l’adressage et la transmission de données sur un réseau."
+  },
+  {
+    "type": "personne",
+    "title": "Tim Berners-Lee",
+    "description": "Inventeur du World Wide Web et des premières technologies du web."
+  }
+]

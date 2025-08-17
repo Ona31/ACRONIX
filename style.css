@@ -1,0 +1,183 @@
+ *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /* =================== VARIABLES =================== */
+    html{
+        --var-primary: #f0882d;
+        --var-dark: #171717;
+        --var-white: #fafafa;
+        --cart: #262626;
+        --text: #ffffff;
+        --text-accent: #a3a3a3;
+        --border: #404040;
+        --res : #24232377;
+    }
+
+    /* =================== BODY =================== */
+    body{
+        min-height: 100vh;
+        background-color: var(--var-dark);
+        color: var(--text);
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    /* =================== MODE CLAIR =================== */
+    body.white-mode {
+        --var-dark: #fafafa;
+        --var-white: #171717;
+        --cart: #f0f0f0;
+        --text: #171717;
+        --text-accent: #555555;
+        --border: #cccccc;
+        background-color: var(--var-dark);
+        color: var(--var-white);
+    }
+
+    /* =================== HEADER =================== */
+    header{
+        display: flex;
+        width: 100%;
+        position: fixed;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 4rem;
+        color: var(--text);
+        transition: background-color 0.3s, color 0.3s;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+    .logo h1{
+        color: var(--text);
+        margin-left: 0.5rem;
+    }
+    .logo h1 i{
+        color: var(--var-primary);
+    }
+
+    /* =================== BOUTONS =================== */
+    .mode button{
+        display: flex;
+        align-items: center;
+        background-color: var(--cart);
+        border: 1px solid var(--border);
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        color: var(--text);
+        cursor: pointer;
+        backdrop-filter: blur(4px);
+        transition: all 0.3s ease-in-out;
+    }
+    .mode button:hover{
+        box-shadow: 0px 0px 5px var(--var-primary);
+        border: 1px solid var(--var-primary);
+    }
+    .mode button i{
+        margin-right: 5px;
+        color: var(--var-primary);
+    }
+
+    /* =================== TEXTE =================== */
+    h1, h2, h3, p, span{
+        color: var(--text);
+        transition: color 0.3s;
+    }
+
+    p{
+        color: var(--text-accent);
+        font-size: 15px;
+
+    }
+
+    main{
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5rem;
+    }
+    .intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem ;
+        width: 50%;
+    }
+    .intro p{
+        text-align: center;
+    }
+  .input{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    background-color: var(--cart);
+    border: 1px solid var(--border);
+    border-radius: 50px;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  input{
+    border: none;
+    background: transparent;
+      padding: 1rem 2rem;
+    margin: 0 1rem;
+    outline: none;
+    color: var(--text);
+    width: 80%;
+  }
+  input::placeholder{
+    color: var(--text-accent);
+  }
+  #submit{
+    display: flex;
+    background:var(--var-primary);
+    padding: 1rem;
+    border-radius: 100%;
+     border: none;
+  }
+  #submit i{
+    color: var(--var-white);
+   
+  }
+  
+  .resultat{
+    width: 60%;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    height: 100%;
+    margin: 2rem 0;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    overflow: auto;
+    padding: 1rem;
+
+  }
+  .card{
+     background-color: var(--cart);
+    backdrop-filter: blur(5px);
+    margin: 2rem 0;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    padding: 2rem;
+  }
+  .card .title{
+    color: var(--var-primary);
+  }
+  .card .type{
+    color: var(--text);
+  }
+  .card .description{
+    color: var(--text-accent);
+  }
+
+::-webkit-scrollbar{
+    display: none;
+}
