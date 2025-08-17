@@ -28,6 +28,8 @@ const toggleBtn = document.getElementById('toggleTheme');
 // Cibler les éléments HTML
 const searchInput = document.getElementById("input");
 const results = document.getElementById("results");
+const nb = document.getElementById("nb");
+
 let data = []; // on stockera les données ici
 
 // Fonction pour afficher les résultats
@@ -45,6 +47,8 @@ function render(list) {
         <div class="title">${item.title}</div>
         <div class="type">${item.type}</div>
         <div class="description">${item.description}</div>
+       <a href=${item.link}><i class="fas fa-link"></i>${item.link}
+</a>
       </div>
     `;
   });
@@ -66,6 +70,8 @@ fetch("data.json")
   .then(json => {
     data = json;          // on stocke les données
     render(data);         // affichage initial
+    const totalWords = data.length;
+    nb.innerHTML = totalWords;
   })
   .catch(error => console.error("Erreur de chargement JSON :", error));
 

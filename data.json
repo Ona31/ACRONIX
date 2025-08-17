@@ -2,76 +2,2425 @@
   {
     "type": "mot",
     "title": "Algorithme",
-    "description": "Suite d’instructions permettant de résoudre un problème."
+    "description": "Suite d’instructions permettant de résoudre un problème.",
+    "link": "https://fr.wikipedia.org/wiki/Algorithme"
   },
   {
     "type": "acronyme",
     "title": "API",
-    "description": "Application Programming Interface : interface permettant à deux logiciels de communiquer."
+    "description": "Interface de programmation d'applications permettant à différents logiciels de communiquer.",
+    "link": "https://fr.wikipedia.org/wiki/Interface_de_programmation"
   },
   {
     "type": "acronyme",
     "title": "HTTP",
-    "description": "HyperText Transfer Protocol : protocole de communication du web."
+    "description": "HyperText Transfer Protocol : protocole de communication du web.",
+    "link": "https://fr.wikipedia.org/wiki/Hypertext_Transfer_Protocol"
   },
   {
     "type": "personne",
     "title": "Alan Turing",
-    "description": "Pionnier de l’informatique et de la théorie de la calculabilité."
+    "description": "Pionnier de l’informatique et de la théorie de la calculabilité.",
+    "link": "https://fr.wikipedia.org/wiki/Alan_Turing"
   },
   {
     "type": "mot",
     "title": "Variable",
-    "description": "Espace mémoire permettant de stocker une valeur qui peut changer."
+    "description": "Espace mémoire permettant de stocker une valeur qui peut changer.",
+    "link": "https://fr.wikipedia.org/wiki/Variable_(programmation)"
   },
   {
     "type": "mot",
     "title": "Boucle",
-    "description": "Structure de contrôle qui répète un bloc d’instructions plusieurs fois."
+    "description": "Structure de contrôle qui répète un bloc d’instructions plusieurs fois.",
+    "link": "https://fr.wikipedia.org/wiki/Boucle_(informatique)"
   },
   {
     "type": "acronyme",
     "title": "CSS",
-    "description": "Cascading Style Sheets : langage utilisé pour styliser les pages web."
+    "description": "Cascading Style Sheets : langage utilisé pour styliser les pages web.",
+    "link": "https://fr.wikipedia.org/wiki/Cascading_Style_Sheets"
   },
   {
     "type": "acronyme",
     "title": "JSON",
-    "description": "JavaScript Object Notation : format de données léger et facile à lire pour l’échange de données."
+    "description": "JavaScript Object Notation : format de données léger et facile à lire pour l’échange de données.",
+    "link": "https://fr.wikipedia.org/wiki/JSON"
   },
   {
     "type": "personne",
     "title": "Grace Hopper",
-    "description": "Informaticienne américaine, pionnière du langage COBOL et de la programmation."
+    "description": "Informaticienne américaine, pionnière du langage COBOL et de la programmation.",
+    "link": "https://fr.wikipedia.org/wiki/Grace_Hopper"
   },
   {
     "type": "mot",
     "title": "Compilation",
-    "description": "Processus de traduction du code source en code exécutable par l’ordinateur."
+    "description": "Processus de traduction du code source en code exécutable par l’ordinateur.",
+    "link": "https://fr.wikipedia.org/wiki/Compilation_(informatique)"
   },
   {
     "type": "acronyme",
     "title": "SQL",
-    "description": "Structured Query Language : langage pour interroger et manipuler les bases de données."
+    "description": "Structured Query Language : langage pour interroger et manipuler les bases de données.",
+    "link": "https://fr.wikipedia.org/wiki/SQL"
   },
   {
     "type": "mot",
     "title": "Serveur",
-    "description": "Ordinateur ou logiciel qui fournit des services ou des ressources à d’autres ordinateurs (clients)."
+    "description": "Ordinateur ou logiciel qui fournit des services ou des ressources à d’autres ordinateurs (clients).",
+    "link": "https://fr.wikipedia.org/wiki/Serveur_(informatique)"
   },
   {
     "type": "mot",
     "title": "Client",
-    "description": "Ordinateur ou logiciel qui demande des services ou ressources à un serveur."
+    "description": "Ordinateur ou logiciel qui demande des services ou ressources à un serveur.",
+    "link": "https://fr.wikipedia.org/wiki/Client_(informatique)"
   },
   {
     "type": "acronyme",
     "title": "IP",
-    "description": "Internet Protocol : protocole permettant l’adressage et la transmission de données sur un réseau."
+    "description": "Internet Protocol : protocole permettant l’adressage et la transmission de données sur un réseau.",
+    "link": "https://fr.wikipedia.org/wiki/Adresse_IP"
   },
   {
     "type": "personne",
     "title": "Tim Berners-Lee",
-    "description": "Inventeur du World Wide Web et des premières technologies du web."
+    "description": "Inventeur du World Wide Web et des premières technologies du web.",
+    "link": "https://fr.wikipedia.org/wiki/Tim_Berners-Lee"
+  },
+  {
+    "type": "mot",
+    "title": "Framework",
+    "description": "Ensemble de bibliothèques et outils facilitant le développement d’applications.",
+    "link": "https://fr.wikipedia.org/wiki/Framework"
+  },
+  {
+    "type": "acronyme",
+    "title": "REST",
+    "description": "Representational State Transfer : architecture pour les services web.",
+    "link": "https://fr.wikipedia.org/wiki/REST"
+  },
+  {
+    "type": "mot",
+    "title": "Algèbre booléenne",
+    "description": "Système mathématique utilisé en informatique pour manipuler des valeurs binaires.",
+    "link": "https://fr.wikipedia.org/wiki/Alg%C3%A8bre_bool%C3%A9enne"
+  },
+  {
+    "type": "acronyme",
+    "title": "TCP/IP",
+    "description": "Transmission Control Protocol / Internet Protocol : protocoles de communication réseau.",
+    "link": "https://fr.wikipedia.org/wiki/Transmission_Control_Protocol"
+  },
+  {
+    "type": "personne",
+    "title": "Dennis Ritchie",
+    "description": "Créateur du langage C et contributeur majeur au système UNIX.",
+    "link": "https://fr.wikipedia.org/wiki/Dennis_Ritchie"
+  },
+  {
+    "type": "mot",
+    "title": "Protocole",
+    "description": "Ensemble de règles permettant la communication entre systèmes informatiques.",
+    "link": "https://fr.wikipedia.org/wiki/Protocole_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Serveur Web",
+    "description": "Serveur qui héberge des sites web et gère les requêtes HTTP.",
+    "link": "https://fr.wikipedia.org/wiki/Serveur_web"
+  },
+  {
+    "type": "mot",
+    "title": "Base de données",
+    "description": "Collection organisée d'informations accessibles et manipulables.",
+    "link": "https://fr.wikipedia.org/wiki/Base_de_donn%C3%A9es"
+  },
+  {
+    "type": "acronyme",
+    "title": "URL",
+    "description": "Uniform Resource Locator : adresse permettant d’accéder à une ressource sur Internet.",
+    "link": "https://fr.wikipedia.org/wiki/URL"
+  },
+  {
+    "type": "acronyme",
+    "title": "DNS",
+    "description": "Domain Name System : système de noms de domaine pour traduire des noms en adresses IP.",
+    "link": "https://fr.wikipedia.org/wiki/Domain_Name_System"
+  },
+  {
+    "type": "mot",
+    "title": "Algorithme de tri",
+    "description": "Algorithme permettant d’ordonner des éléments selon un critère.",
+    "link": "https://fr.wikipedia.org/wiki/Algorithme_de_tri"
+  },
+  {
+    "type": "mot",
+    "title": "Compilation Just-In-Time",
+    "description": "Compilation du code au moment de l’exécution pour améliorer les performances.",
+    "link": "https://fr.wikipedia.org/wiki/Compilation_just-in-time"
+  },
+  {
+    "type": "acronyme",
+    "title": "OOP",
+    "description": "Object-Oriented Programming : programmation orientée objet.",
+    "link": "https://fr.wikipedia.org/wiki/Programmation_orient%C3%A9e_objet"
+  },
+  {
+    "type": "mot",
+    "title": "Machine virtuelle",
+    "description": "Programme simulant un ordinateur complet pour exécuter du code.",
+    "link": "https://fr.wikipedia.org/wiki/Machine_virtuelle"
+  },
+  {
+    "type": "acronyme",
+    "title": "GUI",
+    "description": "Graphical User Interface : interface graphique d’un logiciel.",
+    "link": "https://fr.wikipedia.org/wiki/Interface_graphique_utilisateur"
+  },
+  {
+    "type": "mot",
+    "title": "Bug",
+    "description": "Erreur dans un programme informatique provoquant un comportement inattendu.",
+    "link": "https://fr.wikipedia.org/wiki/Bogue_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Debugging",
+    "description": "Processus de recherche et correction des erreurs dans un programme.",
+    "link": "https://fr.wikipedia.org/wiki/Debugging"
+  },
+  {
+    "type": "acronyme",
+    "title": "IDE",
+    "description": "Integrated Development Environment : environnement de développement intégré.",
+    "link": "https://fr.wikipedia.org/wiki/Environnement_de_d%C3%A9veloppement_int%C3%A9gr%C3%A9"
+  },
+  {
+    "type": "mot",
+    "title": "Script",
+    "description": "Programme informatique exécuté par un interpréteur pour automatiser des tâches.",
+    "link": "https://fr.wikipedia.org/wiki/Script_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Compilateur",
+    "description": "Programme qui traduit le code source en code exécutable.",
+    "link": "https://fr.wikipedia.org/wiki/Compilateur"
+  },
+  {
+    "type": "mot",
+    "title": "Interpréteur",
+    "description": "Programme qui exécute directement le code source sans le compiler.",
+    "link": "https://fr.wikipedia.org/wiki/Interpr%C3%A9teur_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Variable globale",
+    "description": "Variable accessible depuis n’importe quel endroit dans un programme.",
+    "link": "https://fr.wikipedia.org/wiki/Variable_(programmation)#Port%C3%A9e_des_variables"
+  },
+  {
+    "type": "mot",
+    "title": "Variable locale",
+    "description": "Variable accessible uniquement dans un bloc de code ou une fonction.",
+    "link": "https://fr.wikipedia.org/wiki/Variable_(programmation)#Port%C3%A9e_des_variables"
+  },
+  {
+    "type": "acronyme",
+    "title": "HTML",
+    "description": "HyperText Markup Language : langage de balisage pour créer des pages web.",
+    "link": "https://fr.wikipedia.org/wiki/HTML"
+  },
+  {
+    "type": "mot",
+    "title": "Balise",
+    "description": "Élément de code délimitant une portion de contenu dans HTML.",
+    "link": "https://fr.wikipedia.org/wiki/Balise_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "DOM",
+    "description": "Document Object Model : représentation structurée d’un document HTML ou XML.",
+    "link": "https://fr.wikipedia.org/wiki/Document_Object_Model"
+  },
+  {
+    "type": "acronyme",
+    "title": "JSONP",
+    "description": "JSON with Padding : technique pour contourner les restrictions CORS.",
+    "link": "https://fr.wikipedia.org/wiki/JSONP"
+  },
+  {
+    "type": "mot",
+    "title": "Sécurité informatique",
+    "description": "Protection des systèmes et des données contre les attaques et intrusions.",
+    "link": "https://fr.wikipedia.org/wiki/S%C3%A9curit%C3%A9_informatique"
+  },
+  {
+    "type": "acronyme",
+    "title": "VPN",
+    "description": "Virtual Private Network : réseau privé virtuel permettant des communications sécurisées.",
+    "link": "https://fr.wikipedia.org/wiki/R%C3%A9seau_priv%C3%A9_virtuel"
+  },
+  {
+    "type": "mot",
+    "title": "Pare-feu",
+    "description": "Système de sécurité filtrant le trafic réseau.",
+    "link": "https://fr.wikipedia.org/wiki/Pare-feu_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Cryptographie",
+    "description": "Technique de sécurisation des informations par le chiffrement.",
+    "link": "https://fr.wikipedia.org/wiki/Cryptographie"
+  },
+  {
+    "type": "acronyme",
+    "title": "AES",
+    "description": "Advanced Encryption Standard : algorithme de chiffrement symétrique.",
+    "link": "https://fr.wikipedia.org/wiki/Advanced_Encryption_Standard"
+  },
+  {
+    "type": "mot",
+    "title": "Hash",
+    "description": "Valeur générée à partir de données pour identifier ou sécuriser leur intégrité.",
+    "link": "https://fr.wikipedia.org/wiki/Fonction_de_hachage"
+  },
+  {
+    "type": "mot",
+    "title": "Serveur proxy",
+    "description": "Serveur intermédiaire entre un client et un serveur final.",
+    "link": "https://fr.wikipedia.org/wiki/Proxy_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Load balancing",
+    "description": "Répartition de la charge entre plusieurs serveurs pour optimiser les performances.",
+    "link": "https://fr.wikipedia.org/wiki/Équilibrage_de_charge"
+  },
+  {
+    "type": "acronyme",
+    "title": "SaaS",
+    "description": "Software as a Service : logiciel accessible en ligne sans installation locale.",
+    "link": "https://fr.wikipedia.org/wiki/Logiciel_en_tant_que_service"
+  },
+  {
+    "type": "mot",
+    "title": "PaaS",
+    "description": "Platform as a Service : plateforme permettant de développer et déployer des applications sans gérer l'infrastructure.",
+    "link": "https://fr.wikipedia.org/wiki/Platform_as_a_service"
+  },
+  {
+    "type": "mot",
+    "title": "IaaS",
+    "description": "Infrastructure as a Service : location de ressources informatiques comme des serveurs ou stockage.",
+    "link": "https://fr.wikipedia.org/wiki/Infrastructure_as_a_service"
+  },
+  {
+    "type": "mot",
+    "title": "Conteneur",
+    "description": "Environnement isolé pour exécuter des applications avec toutes leurs dépendances.",
+    "link": "https://fr.wikipedia.org/wiki/Conteneur_(informatique)"
+  },
+  {
+    "type": "acronyme",
+    "title": "Docker",
+    "description": "Plateforme de conteneurisation permettant de déployer des applications facilement.",
+    "link": "https://fr.wikipedia.org/wiki/Docker"
+  },
+  {
+    "type": "mot",
+    "title": "Kubernetes",
+    "description": "Système d'orchestration de conteneurs pour automatiser le déploiement et la gestion.",
+    "link": "https://fr.wikipedia.org/wiki/Kubernetes"
+  },
+  {
+    "type": "mot",
+    "title": "Cloud computing",
+    "description": "Utilisation de serveurs distants pour stocker, gérer et traiter des données.",
+    "link": "https://fr.wikipedia.org/wiki/Cloud_computing"
+  },
+  {
+    "type": "mot",
+    "title": "Big Data",
+    "description": "Traitement et analyse de très grandes quantités de données.",
+    "link": "https://fr.wikipedia.org/wiki/Big_data"
+  },
+  {
+    "type": "mot",
+    "title": "Machine Learning",
+    "description": "Technique d’intelligence artificielle permettant aux systèmes d'apprendre automatiquement.",
+    "link": "https://fr.wikipedia.org/wiki/Apprentissage_automatique"
+  },
+  {
+    "type": "mot",
+    "title": "Intelligence artificielle",
+    "description": "Domaine de l’informatique visant à créer des machines capables de simuler l’intelligence humaine.",
+    "link": "https://fr.wikipedia.org/wiki/Intelligence_artificielle"
+  },
+  {
+    "type": "mot",
+    "title": "Réseau",
+    "description": "Ensemble de dispositifs interconnectés permettant l'échange d'informations.",
+    "link": "https://fr.wikipedia.org/wiki/R%C3%A9seau_informatique"
+  },
+  {
+    "type": "mot",
+    "title": "LAN",
+    "description": "Local Area Network : réseau local sur une zone géographique limitée.",
+    "link": "https://fr.wikipedia.org/wiki/R%C3%A9seau_local"
+  },
+  {
+    "type": "mot",
+    "title": "WAN",
+    "description": "Wide Area Network : réseau étendu couvrant de larges zones géographiques.",
+    "link": "https://fr.wikipedia.org/wiki/R%C3%A9seau_étendu"
+  },
+  {
+    "type": "mot",
+    "title": "VPN",
+    "description": "Virtual Private Network : réseau privé virtuel permettant des communications sécurisées.",
+    "link": "https://fr.wikipedia.org/wiki/R%C3%A9seau_priv%C3%A9_virtuel"
+  },
+  {
+    "type": "mot",
+    "title": "Proxy",
+    "description": "Serveur intermédiaire entre un client et un serveur pour filtrer ou rediriger le trafic.",
+    "link": "https://fr.wikipedia.org/wiki/Proxy_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Firewall",
+    "description": "Système de sécurité filtrant le trafic réseau et protégeant contre les intrusions.",
+    "link": "https://fr.wikipedia.org/wiki/Pare-feu_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "DNS",
+    "description": "Domain Name System : système de noms de domaine pour traduire des noms en adresses IP.",
+    "link": "https://fr.wikipedia.org/wiki/Domain_Name_System"
+  },
+  {
+    "type": "mot",
+    "title": "DHCP",
+    "description": "Dynamic Host Configuration Protocol : protocole attribuant automatiquement des adresses IP.",
+    "link": "https://fr.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol"
+  },
+  {
+    "type": "mot",
+    "title": "FTP",
+    "description": "File Transfer Protocol : protocole de transfert de fichiers sur un réseau.",
+    "link": "https://fr.wikipedia.org/wiki/File_Transfer_Protocol"
+  },
+  {
+    "type": "mot",
+    "title": "SMTP",
+    "description": "Simple Mail Transfer Protocol : protocole pour l’envoi d’emails.",
+    "link": "https://fr.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol"
+  },
+  {
+    "type": "mot",
+    "title": "IMAP",
+    "description": "Internet Message Access Protocol : protocole pour accéder aux emails sur un serveur.",
+    "link": "https://fr.wikipedia.org/wiki/Internet_Message_Access_Protocol"
+  },
+  {
+    "type": "mot",
+    "title": "POP3",
+    "description": "Post Office Protocol version 3 : protocole pour récupérer des emails depuis un serveur.",
+    "link": "https://fr.wikipedia.org/wiki/Post_Office_Protocol"
+  },
+  {
+    "type": "mot",
+    "title": "HTTPS",
+    "description": "HyperText Transfer Protocol Secure : protocole HTTP sécurisé via TLS/SSL.",
+    "link": "https://fr.wikipedia.org/wiki/HTTPS"
+  },
+  {
+    "type": "mot",
+    "title": "SSL",
+    "description": "Secure Sockets Layer : protocole de sécurité pour chiffrer les communications sur internet.",
+    "link": "https://fr.wikipedia.org/wiki/Transport_Layer_Security"
+  },
+  {
+    "type": "mot",
+    "title": "TLS",
+    "description": "Transport Layer Security : protocole de sécurisation des communications réseau.",
+    "link": "https://fr.wikipedia.org/wiki/Transport_Layer_Security"
+  },
+  {
+    "type": "mot",
+    "title": "Cryptographie",
+    "description": "Technique de sécurisation des informations par le chiffrement.",
+    "link": "https://fr.wikipedia.org/wiki/Cryptographie"
+  },
+  {
+    "type": "mot",
+    "title": "Hash",
+    "description": "Valeur générée à partir de données pour identifier ou sécuriser leur intégrité.",
+    "link": "https://fr.wikipedia.org/wiki/Fonction_de_hachage"
+  },
+  {
+    "type": "mot",
+    "title": "Blockchain",
+    "description": "Base de données distribuée et sécurisée pour enregistrer des transactions.",
+    "link": "https://fr.wikipedia.org/wiki/Blockchain"
+  },
+  {
+    "type": "mot",
+    "title": "Bitcoin",
+    "description": "Cryptomonnaie utilisant la technologie blockchain.",
+    "link": "https://fr.wikipedia.org/wiki/Bitcoin"
+  },
+  {
+    "type": "mot",
+    "title": "Ethereum",
+    "description": "Plateforme blockchain permettant de créer des contrats intelligents et des applications décentralisées.",
+    "link": "https://fr.wikipedia.org/wiki/Ethereum"
+  },
+  {
+    "type": "mot",
+    "title": "NFT",
+    "description": "Non-Fungible Token : actif numérique unique basé sur la blockchain.",
+    "link": "https://fr.wikipedia.org/wiki/Jeton_non_fongible"
+  },
+  {
+    "type": "mot",
+    "title": "Smart Contract",
+    "description": "Contrat informatique auto-exécutable sur la blockchain.",
+    "link": "https://fr.wikipedia.org/wiki/Contrat_intelligent"
+  },
+  {
+    "type": "mot",
+    "title": "IoT",
+    "description": "Internet of Things : réseau d'objets connectés communiquant entre eux.",
+    "link": "https://fr.wikipedia.org/wiki/Internet_des_objets"
+  },
+  {
+    "type": "mot",
+    "title": "Edge Computing",
+    "description": "Traitement des données à proximité des appareils générant les données pour réduire la latence.",
+    "link": "https://fr.wikipedia.org/wiki/Edge_computing"
+  },
+  {
+    "type": "mot",
+    "title": "DevOps",
+    "description": "Méthodologie combinant développement logiciel et exploitation pour améliorer la livraison.",
+    "link": "https://fr.wikipedia.org/wiki/DevOps"
+  },
+  {
+    "type": "mot",
+    "title": "CI/CD",
+    "description": "Continuous Integration / Continuous Deployment : pratique de déploiement automatisé.",
+    "link": "https://fr.wikipedia.org/wiki/Intégration_continue"
+  },
+  {
+    "type": "mot",
+    "title": "Versioning",
+    "description": "Gestion des différentes versions d’un logiciel ou d’un code source.",
+    "link": "https://fr.wikipedia.org/wiki/Gestion_des_versions"
+  },
+  {
+    "type": "mot",
+    "title": "Git",
+    "description": "Système de gestion de versions décentralisé pour le code source.",
+    "link": "https://fr.wikipedia.org/wiki/Git"
+  },
+  {
+    "type": "mot",
+    "title": "GitHub",
+    "description": "Plateforme web pour héberger des projets Git et collaborer.",
+    "link": "https://fr.wikipedia.org/wiki/GitHub"
+  },
+  {
+    "type": "mot",
+    "title": "Bitbucket",
+    "description": "Plateforme de gestion de code source basée sur Git et Mercurial.",
+    "link": "https://fr.wikipedia.org/wiki/Bitbucket"
+  },
+  {
+    "type": "mot",
+    "title": "Agile",
+    "description": "Méthodologie de gestion de projet favorisant l’adaptabilité et la collaboration.",
+    "link": "https://fr.wikipedia.org/wiki/Méthode_agile"
+  },
+  {
+    "type": "mot",
+    "title": "Scrum",
+    "description": "Cadre de travail Agile pour gérer des projets complexes par itérations.",
+    "link": "https://fr.wikipedia.org/wiki/Scrum_(gestion_de_projet)"
+  },
+  {
+    "type": "mot",
+    "title": "Kanban",
+    "description": "Méthode de gestion visuelle pour organiser le flux de travail.",
+    "link": "https://fr.wikipedia.org/wiki/Kanban"
+  },
+  {
+    "type": "mot",
+    "title": "Sprint",
+    "description": "Itération courte dans la méthodologie Scrum pour livrer des fonctionnalités.",
+    "link": "https://fr.wikipedia.org/wiki/Sprint_(Scrum)"
+  },
+  {
+    "type": "mot",
+    "title": "Backlog",
+    "description": "Liste priorisée des tâches ou fonctionnalités à réaliser dans un projet.",
+    "link": "https://fr.wikipedia.org/wiki/Backlog"
+  },
+  {
+    "type": "mot",
+    "title": "API REST",
+    "description": "Interface de programmation utilisant les principes REST pour interagir avec un service web.",
+    "link": "https://fr.wikipedia.org/wiki/Representational_State_Transfer"
+  },
+  {
+    "type": "mot",
+    "title": "WebSocket",
+    "description": "Protocole de communication permettant des échanges bidirectionnels en temps réel.",
+    "link": "https://fr.wikipedia.org/wiki/WebSocket"
+  },
+  {
+    "type": "mot",
+    "title": "SPA",
+    "description": "Single Page Application : application web dynamique chargée sur une seule page HTML.",
+    "link": "https://fr.wikipedia.org/wiki/Single-page_application"
+  },
+  {
+    "type": "mot",
+    "title": "PWA",
+    "description": "Progressive Web App : application web avec fonctionnalités proches des apps natives.",
+    "link": "https://fr.wikipedia.org/wiki/Progressive_web_app"
+  },
+  {
+    "type": "mot",
+    "title": "Responsive Design",
+    "description": "Technique de conception web adaptative aux différentes tailles d’écran.",
+    "link": "https://fr.wikipedia.org/wiki/Responsive_web_design"
+  },
+  {
+    "type": "mot",
+    "title": "Bootstrap",
+    "description": "Framework CSS pour développer rapidement des interfaces responsives.",
+    "link": "https://fr.wikipedia.org/wiki/Bootstrap_(framework)"
+  },
+  {
+    "type": "mot",
+    "title": "Material Design",
+    "description": "Langage de design développé par Google pour des interfaces cohérentes et esthétiques.",
+    "link": "https://fr.wikipedia.org/wiki/Material_Design"
+  },
+  {
+    "type": "mot",
+    "title": "jQuery",
+    "description": "Bibliothèque JavaScript simplifiant la manipulation du DOM et les requêtes AJAX.",
+    "link": "https://fr.wikipedia.org/wiki/JQuery"
+  },
+
+  {
+    "type": "mot",
+    "title": "Node.js",
+    "description": "Environnement d'exécution JavaScript côté serveur.",
+    "link": "https://fr.wikipedia.org/wiki/Node.js"
+  },
+  {
+    "type": "mot",
+    "title": "Express.js",
+    "description": "Framework web minimaliste pour Node.js.",
+    "link": "https://fr.wikipedia.org/wiki/Express.js"
+  },
+  {
+    "type": "mot",
+    "title": "React",
+    "description": "Bibliothèque JavaScript pour construire des interfaces utilisateur dynamiques.",
+    "link": "https://fr.wikipedia.org/wiki/React_(bibliothèque_JavaScript)"
+  },
+  {
+    "type": "mot",
+    "title": "Angular",
+    "description": "Framework TypeScript pour le développement d'applications web dynamiques.",
+    "link": "https://fr.wikipedia.org/wiki/Angular_(framework)"
+  },
+  {
+    "type": "mot",
+    "title": "Vue.js",
+    "description": "Framework JavaScript progressif pour construire des interfaces utilisateur.",
+    "link": "https://fr.wikipedia.org/wiki/Vue.js"
+  },
+  {
+    "type": "mot",
+    "title": "SASS",
+    "description": "Préprocesseur CSS qui ajoute des fonctionnalités avancées comme les variables et mixins.",
+    "link": "https://fr.wikipedia.org/wiki/Sass_(langage)"
+  },
+  {
+    "type": "mot",
+    "title": "LESS",
+    "description": "Préprocesseur CSS permettant d'utiliser des variables et fonctions.",
+    "link": "https://fr.wikipedia.org/wiki/Less_(langage)"
+  },
+  {
+    "type": "mot",
+    "title": "Webpack",
+    "description": "Bundler JavaScript pour regrouper et optimiser les fichiers d'un projet web.",
+    "link": "https://fr.wikipedia.org/wiki/Webpack"
+  },
+  {
+    "type": "mot",
+    "title": "Babel",
+    "description": "Transpileur JavaScript permettant de convertir du code ES6+ en code compatible anciens navigateurs.",
+    "link": "https://fr.wikipedia.org/wiki/Babel_(transpileur)"
+  },
+  {
+    "type": "mot",
+    "title": "TypeScript",
+    "description": "Langage de programmation basé sur JavaScript avec typage statique.",
+    "link": "https://fr.wikipedia.org/wiki/TypeScript"
+  },
+  {
+    "type": "mot",
+    "title": "JSON Schema",
+    "description": "Format pour définir la structure et la validation de données JSON.",
+    "link": "https://fr.wikipedia.org/wiki/JSON_Schema"
+  },
+  {
+    "type": "mot",
+    "title": "AJAX",
+    "description": "Technique pour effectuer des requêtes HTTP en arrière-plan et mettre à jour une page sans recharger.",
+    "link": "https://fr.wikipedia.org/wiki/Ajax_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "RESTful API",
+    "description": "API web respectant les principes REST pour une communication standardisée.",
+    "link": "https://fr.wikipedia.org/wiki/Representational_State_Transfer"
+  },
+  {
+    "type": "mot",
+    "title": "GraphQL",
+    "description": "Langage de requête pour les API permettant de récupérer uniquement les données nécessaires.",
+    "link": "https://fr.wikipedia.org/wiki/GraphQL"
+  },
+  {
+    "type": "mot",
+    "title": "Microservices",
+    "description": "Architecture où une application est décomposée en petits services indépendants.",
+    "link": "https://fr.wikipedia.org/wiki/Microservices"
+  },
+  {
+    "type": "mot",
+    "title": "Serverless",
+    "description": "Architecture cloud où le fournisseur gère l’infrastructure et l’exécution des fonctions.",
+    "link": "https://fr.wikipedia.org/wiki/Serverless"
+  },
+  {
+    "type": "mot",
+    "title": "Firebase",
+    "description": "Plateforme cloud de Google pour le développement d'applications web et mobiles.",
+    "link": "https://fr.wikipedia.org/wiki/Firebase"
+  },
+  {
+    "type": "mot",
+    "title": "MongoDB",
+    "description": "Base de données NoSQL orientée documents.",
+    "link": "https://fr.wikipedia.org/wiki/MongoDB"
+  },
+  {
+    "type": "mot",
+    "title": "MySQL",
+    "description": "Système de gestion de base de données relationnelle.",
+    "link": "https://fr.wikipedia.org/wiki/MySQL"
+  },
+  {
+    "type": "mot",
+    "title": "PostgreSQL",
+    "description": "Système de gestion de base de données relationnelle avancé et open source.",
+    "link": "https://fr.wikipedia.org/wiki/PostgreSQL"
+  },
+  {
+    "type": "mot",
+    "title": "SQLite",
+    "description": "Base de données légère intégrée à une application.",
+    "link": "https://fr.wikipedia.org/wiki/SQLite"
+  },
+  {
+    "type": "mot",
+    "title": "Redis",
+    "description": "Base de données en mémoire pour le stockage et la gestion de structures de données.",
+    "link": "https://fr.wikipedia.org/wiki/Redis"
+  },
+  {
+    "type": "mot",
+    "title": "Cassandra",
+    "description": "Base de données distribuée NoSQL pour gérer de grandes quantités de données.",
+    "link": "https://fr.wikipedia.org/wiki/Apache_Cassandra"
+  },
+  {
+    "type": "mot",
+    "title": "Elasticsearch",
+    "description": "Moteur de recherche et d’analyse distribué basé sur Lucene.",
+    "link": "https://fr.wikipedia.org/wiki/Elasticsearch"
+  },
+  {
+    "type": "mot",
+    "title": "Kafka",
+    "description": "Plateforme de streaming distribué pour le traitement de flux de données en temps réel.",
+    "link": "https://fr.wikipedia.org/wiki/Apache_Kafka"
+  },
+  {
+    "type": "mot",
+    "title": "RabbitMQ",
+    "description": "Broker de messages pour la communication entre applications distribuées.",
+    "link": "https://fr.wikipedia.org/wiki/RabbitMQ"
+  },
+  {
+    "type": "mot",
+    "title": "Socket.io",
+    "description": "Bibliothèque JavaScript pour la communication en temps réel via WebSocket.",
+    "link": "https://fr.wikipedia.org/wiki/Socket.IO"
+  },
+  {
+    "type": "mot",
+    "title": "JWT",
+    "description": "JSON Web Token : standard pour sécuriser et échanger des informations entre parties.",
+    "link": "https://fr.wikipedia.org/wiki/JSON_Web_Token"
+  },
+  {
+    "type": "mot",
+    "title": "OAuth2",
+    "description": "Protocole d'autorisation pour accéder à des ressources protégées.",
+    "link": "https://fr.wikipedia.org/wiki/OAuth"
+  },
+  {
+    "type": "mot",
+    "title": "OpenID Connect",
+    "description": "Protocole d’authentification basé sur OAuth2 pour vérifier l’identité des utilisateurs.",
+    "link": "https://fr.wikipedia.org/wiki/OpenID_Connect"
+  },
+  {
+    "type": "mot",
+    "title": "Single Sign-On",
+    "description": "Méthode d’authentification permettant de se connecter à plusieurs applications avec un seul identifiant.",
+    "link": "https://fr.wikipedia.org/wiki/Single_sign-on"
+  },
+  {
+    "type": "mot",
+    "title": "Captcha",
+    "description": "Test pour différencier un utilisateur humain d’un bot.",
+    "link": "https://fr.wikipedia.org/wiki/CAPTCHA"
+  },
+  {
+    "type": "mot",
+    "title": "reCAPTCHA",
+    "description": "Service Google de CAPTCHA pour protéger les sites web contre les bots.",
+    "link": "https://fr.wikipedia.org/wiki/ReCAPTCHA"
+  },
+  {
+    "type": "mot",
+    "title": "Analytics",
+    "description": "Outils permettant de collecter et analyser les données d’utilisation d’un site ou application.",
+    "link": "https://fr.wikipedia.org/wiki/Web_analytics"
+  },
+  {
+    "type": "mot",
+    "title": "SEO",
+    "description": "Search Engine Optimization : ensemble de techniques pour améliorer la visibilité sur les moteurs de recherche.",
+    "link": "https://fr.wikipedia.org/wiki/Optimisation_pour_les_moteurs_de_recherche"
+  },
+  {
+    "type": "mot",
+    "title": "SEM",
+    "description": "Search Engine Marketing : marketing visant à augmenter la visibilité d’un site web via les moteurs de recherche.",
+    "link": "https://fr.wikipedia.org/wiki/Search_engine_marketing"
+  },
+  {
+    "type": "mot",
+    "title": "UX",
+    "description": "User Experience : expérience et satisfaction de l’utilisateur lors de l’utilisation d’un produit ou service.",
+    "link": "https://fr.wikipedia.org/wiki/Expérience_utilisateur"
+  },
+  {
+    "type": "mot",
+    "title": "UI",
+    "description": "User Interface : interface graphique permettant l’interaction avec un produit ou service.",
+    "link": "https://fr.wikipedia.org/wiki/Interface_utilisateur"
+  },
+  {
+    "type": "mot",
+    "title": "Accessibility",
+    "description": "Conception pour permettre l’utilisation par tous, y compris les personnes en situation de handicap.",
+    "link": "https://fr.wikipedia.org/wiki/Accessibilité"
+  },
+  {
+    "type": "mot",
+    "title": "Responsive",
+    "description": "Adaptation d’un site ou application aux différentes tailles d’écran et appareils.",
+    "link": "https://fr.wikipedia.org/wiki/Responsive_web_design"
+  },
+  {
+    "type": "mot",
+    "title": "Mobile First",
+    "description": "Approche de design et développement privilégiant d’abord les appareils mobiles.",
+    "link": "https://fr.wikipedia.org/wiki/Mobile_First"
+  },
+  {
+    "type": "mot",
+    "title": "Progressive Enhancement",
+    "description": "Méthode de développement visant à fournir une expérience de base à tous, et des fonctionnalités avancées aux navigateurs modernes.",
+    "link": "https://fr.wikipedia.org/wiki/Progressive_enhancement"
+  },
+  {
+    "type": "mot",
+    "title": "Graceful Degradation",
+    "description": "Méthode de développement consistant à créer une version complète puis à la faire fonctionner de manière dégradée sur les anciens navigateurs.",
+    "link": "https://fr.wikipedia.org/wiki/Graceful_degradation"
+  },
+  {
+    "type": "mot",
+    "title": "Cross-browser",
+    "description": "Pratique de développement pour assurer le bon fonctionnement d’un site sur différents navigateurs.",
+    "link": "https://fr.wikipedia.org/wiki/Cross-browser"
+  },
+  {
+    "type": "mot",
+    "title": "Cross-platform",
+    "description": "Logiciel ou application fonctionnant sur plusieurs systèmes d’exploitation.",
+    "link": "https://fr.wikipedia.org/wiki/Cross-platform"
+  },
+  {
+    "type": "mot",
+    "title": "Open Source",
+    "description": "Logiciel dont le code source est accessible et modifiable par tous.",
+    "link": "https://fr.wikipedia.org/wiki/Logiciel_libre"
+  },
+  {
+    "type": "mot",
+    "title": "Proprietary Software",
+    "description": "Logiciel dont le code source est fermé et la distribution restreinte.",
+    "link": "https://fr.wikipedia.org/wiki/Logiciel_propriétaire"
+  },
+  {
+    "type": "mot",
+    "title": "License MIT",
+    "description": "Licence open source permissive permettant l’utilisation et la modification du code.",
+    "link": "https://fr.wikipedia.org/wiki/MIT_License"
+  },
+  {
+    "type": "mot",
+    "title": "GPL",
+    "description": "General Public License : licence open source copyleft protégeant la liberté d’usage, de modification et de distribution.",
+    "link": "https://fr.wikipedia.org/wiki/GNU_General_Public_License"
+  },
+  {
+    "type": "mot",
+    "title": "Apache License",
+    "description": "Licence open source permissive pour logiciels et projets.",
+    "link": "https://fr.wikipedia.org/wiki/Apache_License"
+  },
+  {
+    "type": "mot",
+    "title": "Creative Commons",
+    "description": "Système de licences pour la distribution et le partage d’œuvres créatives.",
+    "link": "https://fr.wikipedia.org/wiki/Creative_Commons"
+  },
+
+  {
+    "type": "mot",
+    "title": "HTML",
+    "description": "HyperText Markup Language : langage de balisage pour structurer les pages web.",
+    "link": "https://fr.wikipedia.org/wiki/HTML"
+  },
+  {
+    "type": "mot",
+    "title": "CSS Grid",
+    "description": "Système de grille CSS pour créer des mises en page complexes.",
+    "link": "https://fr.wikipedia.org/wiki/CSS_Grid_Layout"
+  },
+  {
+    "type": "mot",
+    "title": "CSS Flexbox",
+    "description": "Modèle de disposition CSS permettant d'aligner et répartir l’espace entre les éléments.",
+    "link": "https://fr.wikipedia.org/wiki/CSS_Flexible_Box_Layout"
+  },
+  {
+    "type": "mot",
+    "title": "Viewport",
+    "description": "Zone visible d’une page web dans un navigateur.",
+    "link": "https://fr.wikipedia.org/wiki/Viewport"
+  },
+  {
+    "type": "mot",
+    "title": "Media Queries",
+    "description": "Technique CSS pour appliquer des styles selon la taille de l’écran ou le dispositif.",
+    "link": "https://fr.wikipedia.org/wiki/CSS_Media_Queries"
+  },
+  {
+    "type": "mot",
+    "title": "DOM",
+    "description": "Document Object Model : représentation structurée d’un document HTML ou XML.",
+    "link": "https://fr.wikipedia.org/wiki/Document_Object_Model"
+  },
+  {
+    "type": "mot",
+    "title": "Event Listener",
+    "description": "Mécanisme JavaScript pour réagir aux événements sur les éléments DOM.",
+    "link": "https://fr.wikipedia.org/wiki/Event_listener"
+  },
+  {
+    "type": "mot",
+    "title": "Callback",
+    "description": "Fonction passée en argument à une autre fonction, appelée à un moment précis.",
+    "link": "https://fr.wikipedia.org/wiki/Callback_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Promise",
+    "description": "Objet JavaScript représentant la complétion ou l’échec futur d’une opération asynchrone.",
+    "link": "https://fr.wikipedia.org/wiki/Promise_(programmation)"
+  },
+  {
+    "type": "mot",
+    "title": "Async/Await",
+    "description": "Syntaxe JavaScript pour gérer les opérations asynchrones de manière plus lisible.",
+    "link": "https://fr.wikipedia.org/wiki/Async_await"
+  },
+  {
+    "type": "mot",
+    "title": "Closure",
+    "description": "Fonction JavaScript qui capture son environnement lexical.",
+    "link": "https://fr.wikipedia.org/wiki/Closure_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Hoisting",
+    "description": "Comportement JavaScript où les déclarations de variables et fonctions sont déplacées en haut de leur portée.",
+    "link": "https://fr.wikipedia.org/wiki/Hoisting"
+  },
+  {
+    "type": "mot",
+    "title": "Scope",
+    "description": "Portée d’une variable ou fonction dans un programme.",
+    "link": "https://fr.wikipedia.org/wiki/Portée_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Prototype",
+    "description": "Objet JavaScript dont d’autres objets héritent des propriétés et méthodes.",
+    "link": "https://fr.wikipedia.org/wiki/Prototype_(programmation)"
+  },
+  {
+    "type": "mot",
+    "title": "Inheritance",
+    "description": "Principe de programmation orientée objet permettant à une classe d’hériter des propriétés d’une autre.",
+    "link": "https://fr.wikipedia.org/wiki/Héritage_(programmation)"
+  },
+  {
+    "type": "mot",
+    "title": "Polymorphism",
+    "description": "Principe de programmation orientée objet où une interface peut représenter différents types.",
+    "link": "https://fr.wikipedia.org/wiki/Polymorphisme_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Encapsulation",
+    "description": "Principe de programmation orientée objet qui cache l’état interne d’un objet.",
+    "link": "https://fr.wikipedia.org/wiki/Encapsulation_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Abstraction",
+    "description": "Principe de programmation orientée objet qui consiste à ne montrer que les fonctionnalités essentielles.",
+    "link": "https://fr.wikipedia.org/wiki/Abstraction_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Algorithmique",
+    "description": "Étude et conception d’algorithmes pour résoudre des problèmes informatiques.",
+    "link": "https://fr.wikipedia.org/wiki/Algorithme"
+  },
+  {
+    "type": "mot",
+    "title": "Complexité algorithmique",
+    "description": "Mesure de la performance d’un algorithme en temps et espace.",
+    "link": "https://fr.wikipedia.org/wiki/Analyse_d’algorithme"
+  },
+  {
+    "type": "mot",
+    "title": "Tri",
+    "description": "Organisation d’éléments selon un ordre donné (ex: tri à bulles, rapide, fusion).",
+    "link": "https://fr.wikipedia.org/wiki/Tri_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Recherche",
+    "description": "Algorithme pour trouver un élément dans une structure de données (ex: recherche linéaire, binaire).",
+    "link": "https://fr.wikipedia.org/wiki/Recherche_algorithme"
+  },
+  {
+    "type": "mot",
+    "title": "Pile (Stack)",
+    "description": "Structure de données où le dernier élément ajouté est le premier retiré (LIFO).",
+    "link": "https://fr.wikipedia.org/wiki/Pile_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "File (Queue)",
+    "description": "Structure de données où le premier élément ajouté est le premier retiré (FIFO).",
+    "link": "https://fr.wikipedia.org/wiki/File_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Liste chaînée",
+    "description": "Structure de données composée de nœuds liés entre eux par des pointeurs.",
+    "link": "https://fr.wikipedia.org/wiki/Liste_chaînée"
+  },
+  {
+    "type": "mot",
+    "title": "Arbre",
+    "description": "Structure de données hiérarchique composée de nœuds et de liens parent-enfant.",
+    "link": "https://fr.wikipedia.org/wiki/Arbre_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Graphe",
+    "description": "Structure de données composée de nœuds et d’arêtes représentant des relations.",
+    "link": "https://fr.wikipedia.org/wiki/Graphe_(théorie_des_graphes)"
+  },
+  {
+    "type": "mot",
+    "title": "Binaire",
+    "description": "Système numérique utilisant uniquement les chiffres 0 et 1.",
+    "link": "https://fr.wikipedia.org/wiki/Système_binaire"
+  },
+  {
+    "type": "mot",
+    "title": "Hexadécimal",
+    "description": "Système numérique en base 16 utilisé en informatique.",
+    "link": "https://fr.wikipedia.org/wiki/Système_hexadécimal"
+  },
+  {
+    "type": "mot",
+    "title": "ASCII",
+    "description": "American Standard Code for Information Interchange : standard de codage des caractères.",
+    "link": "https://fr.wikipedia.org/wiki/ASCII"
+  },
+  {
+    "type": "mot",
+    "title": "Unicode",
+    "description": "Standard universel de codage des caractères pour tous les langages.",
+    "link": "https://fr.wikipedia.org/wiki/Unicode"
+  },
+  {
+    "type": "mot",
+    "title": "Compilation",
+    "description": "Processus de traduction du code source en langage machine.",
+    "link": "https://fr.wikipedia.org/wiki/Compilation_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Interprétation",
+    "description": "Exécution directe d’un code source par un interpréteur.",
+    "link": "https://fr.wikipedia.org/wiki/Interpréteur_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Virtualisation",
+    "description": "Technique permettant d’exécuter plusieurs systèmes d’exploitation sur une même machine physique.",
+    "link": "https://fr.wikipedia.org/wiki/Virtualisation"
+  },
+  {
+    "type": "mot",
+    "title": "Hyperviseur",
+    "description": "Logiciel permettant de créer et gérer des machines virtuelles.",
+    "link": "https://fr.wikipedia.org/wiki/Hyperviseur"
+  },
+  {
+    "type": "mot",
+    "title": "Containerisation",
+    "description": "Isolation d’applications et de leurs dépendances dans des conteneurs légers.",
+    "link": "https://fr.wikipedia.org/wiki/Conteneur_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Load Balancer",
+    "description": "Dispositif distribuant le trafic réseau ou les requêtes entre plusieurs serveurs.",
+    "link": "https://fr.wikipedia.org/wiki/Load_balancing"
+  },
+  {
+    "type": "mot",
+    "title": "Caching",
+    "description": "Technique consistant à stocker des données temporairement pour accélérer l’accès.",
+    "link": "https://fr.wikipedia.org/wiki/Cache_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Compression",
+    "description": "Réduction de la taille des fichiers ou données pour économiser de l’espace ou accélérer le transfert.",
+    "link": "https://fr.wikipedia.org/wiki/Compression_de_données"
+  },
+  {
+    "type": "mot",
+    "title": "Décompression",
+    "description": "Restauration des données compressées à leur forme originale.",
+    "link": "https://fr.wikipedia.org/wiki/Compression_de_données#Décompression"
+  },
+  {
+    "type": "mot",
+    "title": "Cryptage",
+    "description": "Transformation de données pour les rendre illisibles sans clé de décryptage.",
+    "link": "https://fr.wikipedia.org/wiki/Cryptographie"
+  },
+  {
+    "type": "mot",
+    "title": "Décryptage",
+    "description": "Restauration de données chiffrées à leur état lisible original.",
+    "link": "https://fr.wikipedia.org/wiki/Cryptanalyse"
+  },
+  {
+    "type": "mot",
+    "title": "Checksum",
+    "description": "Valeur calculée pour vérifier l’intégrité d’un fichier ou message.",
+    "link": "https://fr.wikipedia.org/wiki/Contrôle_de_redondance_cyclique"
+  },
+  {
+    "type": "mot",
+    "title": "Hashing",
+    "description": "Transformation de données en une valeur fixe pour sécuriser ou identifier.",
+    "link": "https://fr.wikipedia.org/wiki/Fonction_de_hachage"
+  },
+  {
+    "type": "mot",
+    "title": "SSL/TLS",
+    "description": "Protocoles de sécurisation des communications sur Internet.",
+    "link": "https://fr.wikipedia.org/wiki/Transport_Layer_Security"
+  },
+  {
+    "type": "mot",
+    "title": "Firewall",
+    "description": "Système de sécurité réseau filtrant le trafic entrant et sortant.",
+    "link": "https://fr.wikipedia.org/wiki/Pare-feu_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Intrusion Detection System",
+    "description": "Système de détection d’intrusions dans un réseau informatique.",
+    "link": "https://fr.wikipedia.org/wiki/Système_de_détection_d’intrusion"
+  },
+  {
+    "type": "mot",
+    "title": "Backup",
+    "description": "Copie de sauvegarde de données pour prévenir leur perte.",
+    "link": "https://fr.wikipedia.org/wiki/Sauvegarde_informatique"
+  },
+  {
+    "type": "mot",
+    "title": "Recovery",
+    "description": "Processus de restauration des données après une perte ou un incident.",
+    "link": "https://fr.wikipedia.org/wiki/Récupération_de_données"
+  },
+
+  {
+    "type": "mot",
+    "title": "Firmware",
+    "description": "Logiciel intégré dans le matériel informatique pour le contrôler.",
+    "link": "https://fr.wikipedia.org/wiki/Firmware"
+  },
+  {
+    "type": "mot",
+    "title": "BIOS",
+    "description": "Basic Input/Output System : programme initialisant le matériel au démarrage d’un ordinateur.",
+    "link": "https://fr.wikipedia.org/wiki/BIOS"
+  },
+  {
+    "type": "mot",
+    "title": "UEFI",
+    "description": "Unified Extensible Firmware Interface : interface moderne remplaçant le BIOS.",
+    "link": "https://fr.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface"
+  },
+  {
+    "type": "mot",
+    "title": "Kernel",
+    "description": "Noyau du système d’exploitation gérant les ressources matérielles et logicielles.",
+    "link": "https://fr.wikipedia.org/wiki/Noyau_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Shell",
+    "description": "Interface utilisateur pour interagir avec le système d’exploitation via des commandes.",
+    "link": "https://fr.wikipedia.org/wiki/Shell_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Terminal",
+    "description": "Application permettant d’utiliser un shell pour exécuter des commandes.",
+    "link": "https://fr.wikipedia.org/wiki/Terminal_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "CLI",
+    "description": "Command Line Interface : interface textuelle pour interagir avec un ordinateur.",
+    "link": "https://fr.wikipedia.org/wiki/Interface_en_ligne_de_commande"
+  },
+  {
+    "type": "mot",
+    "title": "GUI",
+    "description": "Graphical User Interface : interface graphique pour interagir avec un ordinateur.",
+    "link": "https://fr.wikipedia.org/wiki/Interface_graphique_utilisateur"
+  },
+  {
+    "type": "mot",
+    "title": "API",
+    "description": "Application Programming Interface : interface permettant à des applications de communiquer.",
+    "link": "https://fr.wikipedia.org/wiki/API"
+  },
+  {
+    "type": "mot",
+    "title": "SDK",
+    "description": "Software Development Kit : ensemble d’outils pour développer des applications pour une plateforme.",
+    "link": "https://fr.wikipedia.org/wiki/Software_development_kit"
+  },
+  {
+    "type": "mot",
+    "title": "IDE",
+    "description": "Integrated Development Environment : environnement de développement complet avec éditeur, compilateur et débogueur.",
+    "link": "https://fr.wikipedia.org/wiki/Environnement_de_développement_intégré"
+  },
+  {
+    "type": "mot",
+    "title": "Debugger",
+    "description": "Outil permettant de détecter et corriger les erreurs dans un programme.",
+    "link": "https://fr.wikipedia.org/wiki/Debugging"
+  },
+  {
+    "type": "mot",
+    "title": "Profiling",
+    "description": "Analyse de l’exécution d’un programme pour optimiser ses performances.",
+    "link": "https://fr.wikipedia.org/wiki/Profiling"
+  },
+  {
+    "type": "mot",
+    "title": "Refactoring",
+    "description": "Réécriture du code pour l’améliorer sans modifier son comportement.",
+    "link": "https://fr.wikipedia.org/wiki/Refactoring"
+  },
+  {
+    "type": "mot",
+    "title": "Unit Test",
+    "description": "Test vérifiant qu’une unité de code fonctionne correctement.",
+    "link": "https://fr.wikipedia.org/wiki/Test_unitaire"
+  },
+  {
+    "type": "mot",
+    "title": "Integration Test",
+    "description": "Test vérifiant que plusieurs modules fonctionnent correctement ensemble.",
+    "link": "https://fr.wikipedia.org/wiki/Test_d’intégration"
+  },
+  {
+    "type": "mot",
+    "title": "End-to-End Test",
+    "description": "Test complet d’une application simulant le comportement de l’utilisateur final.",
+    "link": "https://fr.wikipedia.org/wiki/Test_end-to-end"
+  },
+  {
+    "type": "mot",
+    "title": "Continuous Integration",
+    "description": "Pratique consistant à fusionner fréquemment le code dans un dépôt partagé et à le tester automatiquement.",
+    "link": "https://fr.wikipedia.org/wiki/Intégration_continue"
+  },
+  {
+    "type": "mot",
+    "title": "Continuous Deployment",
+    "description": "Pratique de déploiement automatique des modifications validées vers la production.",
+    "link": "https://fr.wikipedia.org/wiki/Livraison_continue"
+  },
+  {
+    "type": "mot",
+    "title": "Container",
+    "description": "Environnement isolé pour exécuter une application avec toutes ses dépendances.",
+    "link": "https://fr.wikipedia.org/wiki/Conteneur_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Orchestration",
+    "description": "Automatisation de la gestion des conteneurs et de leurs interactions.",
+    "link": "https://fr.wikipedia.org/wiki/Orchestration_des_conteneurs"
+  },
+  {
+    "type": "mot",
+    "title": "Virtual Machine",
+    "description": "Machine virtuelle simulant un ordinateur complet.",
+    "link": "https://fr.wikipedia.org/wiki/Machine_virtuelle"
+  },
+  {
+    "type": "mot",
+    "title": "Hypervisor",
+    "description": "Logiciel permettant d’exécuter et gérer des machines virtuelles.",
+    "link": "https://fr.wikipedia.org/wiki/Hyperviseur"
+  },
+  {
+    "type": "mot",
+    "title": "Cloud Computing",
+    "description": "Utilisation de ressources informatiques à distance via Internet.",
+    "link": "https://fr.wikipedia.org/wiki/Cloud_computing"
+  },
+  {
+    "type": "mot",
+    "title": "SaaS",
+    "description": "Software as a Service : logiciel accessible via Internet sans installation locale.",
+    "link": "https://fr.wikipedia.org/wiki/Software_as_a_service"
+  },
+  {
+    "type": "mot",
+    "title": "PaaS",
+    "description": "Platform as a Service : plateforme pour développer et déployer des applications sans gérer l’infrastructure.",
+    "link": "https://fr.wikipedia.org/wiki/Platform_as_a_service"
+  },
+  {
+    "type": "mot",
+    "title": "IaaS",
+    "description": "Infrastructure as a Service : location de ressources informatiques telles que serveurs et stockage.",
+    "link": "https://fr.wikipedia.org/wiki/Infrastructure_as_a_service"
+  },
+  {
+    "type": "mot",
+    "title": "Edge Computing",
+    "description": "Traitement des données à proximité des appareils pour réduire la latence.",
+    "link": "https://fr.wikipedia.org/wiki/Edge_computing"
+  },
+  {
+    "type": "mot",
+    "title": "Serverless",
+    "description": "Architecture où l’exécution est gérée par un fournisseur cloud sans gérer les serveurs.",
+    "link": "https://fr.wikipedia.org/wiki/Serverless"
+  },
+  {
+    "type": "mot",
+    "title": "Load Balancer",
+    "description": "Répartiteur de charge qui distribue le trafic entre plusieurs serveurs.",
+    "link": "https://fr.wikipedia.org/wiki/Load_balancing"
+  },
+  {
+    "type": "mot",
+    "title": "DNS",
+    "description": "Domain Name System : système de noms de domaine traduisant les noms en adresses IP.",
+    "link": "https://fr.wikipedia.org/wiki/Domain_Name_System"
+  },
+  {
+    "type": "mot",
+    "title": "HTTP",
+    "description": "HyperText Transfer Protocol : protocole de communication sur le web.",
+    "link": "https://fr.wikipedia.org/wiki/HTTP"
+  },
+  {
+    "type": "mot",
+    "title": "HTTPS",
+    "description": "HTTP sécurisé avec chiffrement TLS/SSL.",
+    "link": "https://fr.wikipedia.org/wiki/HTTPS"
+  },
+  {
+    "type": "mot",
+    "title": "FTP",
+    "description": "File Transfer Protocol : protocole pour transférer des fichiers entre ordinateurs.",
+    "link": "https://fr.wikipedia.org/wiki/File_Transfer_Protocol"
+  },
+  {
+    "type": "mot",
+    "title": "SMTP",
+    "description": "Simple Mail Transfer Protocol : protocole pour envoyer des emails.",
+    "link": "https://fr.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol"
+  },
+  {
+    "type": "mot",
+    "title": "IMAP",
+    "description": "Internet Message Access Protocol : protocole pour accéder aux emails sur un serveur.",
+    "link": "https://fr.wikipedia.org/wiki/Internet_Message_Access_Protocol"
+  },
+  {
+    "type": "mot",
+    "title": "POP3",
+    "description": "Post Office Protocol version 3 : protocole pour récupérer les emails d’un serveur.",
+    "link": "https://fr.wikipedia.org/wiki/Post_Office_Protocol"
+  },
+  {
+    "type": "mot",
+    "title": "OAuth2",
+    "description": "Protocole d’autorisation pour accéder à des ressources protégées.",
+    "link": "https://fr.wikipedia.org/wiki/OAuth"
+  },
+  {
+    "type": "mot",
+    "title": "OpenID Connect",
+    "description": "Protocole d’authentification basé sur OAuth2.",
+    "link": "https://fr.wikipedia.org/wiki/OpenID_Connect"
+  },
+  {
+    "type": "mot",
+    "title": "JWT",
+    "description": "JSON Web Token : standard pour sécuriser l’échange d’informations.",
+    "link": "https://fr.wikipedia.org/wiki/JSON_Web_Token"
+  },
+  {
+    "type": "mot",
+    "title": "CAPTCHA",
+    "description": "Test pour différencier un humain d’un robot sur le web.",
+    "link": "https://fr.wikipedia.org/wiki/CAPTCHA"
+  },
+  {
+    "type": "mot",
+    "title": "reCAPTCHA",
+    "description": "Service Google pour protéger les sites web contre les bots.",
+    "link": "https://fr.wikipedia.org/wiki/ReCAPTCHA"
+  },
+  {
+    "type": "mot",
+    "title": "Analytics",
+    "description": "Outils pour analyser l’usage d’un site ou application.",
+    "link": "https://fr.wikipedia.org/wiki/Web_analytics"
+  },
+  {
+    "type": "mot",
+    "title": "SEO",
+    "description": "Search Engine Optimization : techniques pour améliorer la visibilité d’un site web.",
+    "link": "https://fr.wikipedia.org/wiki/Optimisation_pour_les_moteurs_de_recherche"
+  },
+  {
+    "type": "mot",
+    "title": "SEM",
+    "description": "Search Engine Marketing : marketing visant à augmenter la visibilité sur les moteurs de recherche.",
+    "link": "https://fr.wikipedia.org/wiki/Search_engine_marketing"
+  },
+  {
+    "type": "mot",
+    "title": "UX",
+    "description": "User Experience : expérience de l’utilisateur lors de l’utilisation d’un produit.",
+    "link": "https://fr.wikipedia.org/wiki/Expérience_utilisateur"
+  },
+  {
+    "type": "mot",
+    "title": "UI",
+    "description": "User Interface : interface graphique permettant l’interaction avec un produit.",
+    "link": "https://fr.wikipedia.org/wiki/Interface_utilisateur"
+  },
+  {
+    "type": "mot",
+    "title": "Accessibility",
+    "description": "Conception pour permettre l’utilisation par tous, y compris les personnes handicapées.",
+    "link": "https://fr.wikipedia.org/wiki/Accessibilité"
+  },
+  {
+    "type": "mot",
+    "title": "Responsive Design",
+    "description": "Technique pour adapter un site aux différentes tailles d’écran.",
+    "link": "https://fr.wikipedia.org/wiki/Responsive_web_design"
+  },
+  {
+    "type": "mot",
+    "title": "Mobile First",
+    "description": "Approche de design privilégiant les appareils mobiles en premier.",
+    "link": "https://fr.wikipedia.org/wiki/Mobile_First"
+  },
+  {
+    "type": "mot",
+    "title": "Progressive Web App",
+    "description": "Application web avec fonctionnalités proches des apps natives.",
+    "link": "https://fr.wikipedia.org/wiki/Progressive_web_app"
+  },
+
+  {
+    "type": "mot",
+    "title": "Bootstrap",
+    "description": "Framework CSS pour créer des sites web responsives rapidement.",
+    "link": "https://fr.wikipedia.org/wiki/Bootstrap_(framework)"
+  },
+  {
+    "type": "mot",
+    "title": "Material Design",
+    "description": "Langage de design développé par Google pour des interfaces cohérentes et esthétiques.",
+    "link": "https://fr.wikipedia.org/wiki/Material_Design"
+  },
+  {
+    "type": "mot",
+    "title": "Tailwind CSS",
+    "description": "Framework CSS utilitaire pour un développement rapide et modulable.",
+    "link": "https://fr.wikipedia.org/wiki/Tailwind_CSS"
+  },
+  {
+    "type": "mot",
+    "title": "SASS",
+    "description": "Préprocesseur CSS permettant d’utiliser variables, mixins et fonctions.",
+    "link": "https://fr.wikipedia.org/wiki/Sass_(langage)"
+  },
+  {
+    "type": "mot",
+    "title": "LESS",
+    "description": "Préprocesseur CSS permettant de simplifier la gestion des styles.",
+    "link": "https://fr.wikipedia.org/wiki/Less_(langage)"
+  },
+  {
+    "type": "mot",
+    "title": "Webpack",
+    "description": "Bundler JavaScript pour regrouper et optimiser les fichiers d’un projet web.",
+    "link": "https://fr.wikipedia.org/wiki/Webpack"
+  },
+  {
+    "type": "mot",
+    "title": "Babel",
+    "description": "Transpileur JavaScript convertissant du code moderne en code compatible anciens navigateurs.",
+    "link": "https://fr.wikipedia.org/wiki/Babel_(transpileur)"
+  },
+  {
+    "type": "mot",
+    "title": "Node.js",
+    "description": "Environnement d’exécution JavaScript côté serveur.",
+    "link": "https://fr.wikipedia.org/wiki/Node.js"
+  },
+  {
+    "type": "mot",
+    "title": "Express.js",
+    "description": "Framework web minimaliste pour Node.js.",
+    "link": "https://fr.wikipedia.org/wiki/Express.js"
+  },
+  {
+    "type": "mot",
+    "title": "React",
+    "description": "Bibliothèque JavaScript pour construire des interfaces utilisateur dynamiques.",
+    "link": "https://fr.wikipedia.org/wiki/React_(bibliothèque_JavaScript)"
+  },
+  {
+    "type": "mot",
+    "title": "Angular",
+    "description": "Framework TypeScript pour développer des applications web dynamiques.",
+    "link": "https://fr.wikipedia.org/wiki/Angular_(framework)"
+  },
+  {
+    "type": "mot",
+    "title": "Vue.js",
+    "description": "Framework JavaScript progressif pour construire des interfaces utilisateur.",
+    "link": "https://fr.wikipedia.org/wiki/Vue.js"
+  },
+  {
+    "type": "mot",
+    "title": "Redux",
+    "description": "Bibliothèque JavaScript pour gérer l’état global d’une application.",
+    "link": "https://fr.wikipedia.org/wiki/Redux_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "MobX",
+    "description": "Bibliothèque JavaScript pour la gestion de l’état avec la réactivité automatique.",
+    "link": "https://fr.wikipedia.org/wiki/MobX"
+  },
+  {
+    "type": "mot",
+    "title": "GraphQL",
+    "description": "Langage de requête pour API permettant de récupérer uniquement les données nécessaires.",
+    "link": "https://fr.wikipedia.org/wiki/GraphQL"
+  },
+  {
+    "type": "mot",
+    "title": "REST API",
+    "description": "API respectant les principes REST pour une communication standardisée.",
+    "link": "https://fr.wikipedia.org/wiki/Representational_State_Transfer"
+  },
+  {
+    "type": "mot",
+    "title": "WebSocket",
+    "description": "Protocole pour une communication bidirectionnelle en temps réel entre client et serveur.",
+    "link": "https://fr.wikipedia.org/wiki/WebSocket"
+  },
+  {
+    "type": "mot",
+    "title": "Socket.io",
+    "description": "Bibliothèque JavaScript pour la communication en temps réel via WebSocket.",
+    "link": "https://fr.wikipedia.org/wiki/Socket.IO"
+  },
+  {
+    "type": "mot",
+    "title": "AJAX",
+    "description": "Technique pour mettre à jour une page web sans la recharger.",
+    "link": "https://fr.wikipedia.org/wiki/Ajax_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Fetch API",
+    "description": "API JavaScript moderne pour effectuer des requêtes HTTP.",
+    "link": "https://fr.wikipedia.org/wiki/Fetch_API"
+  },
+  {
+    "type": "mot",
+    "title": "LocalStorage",
+    "description": "Stockage de données côté client persistant entre les sessions.",
+    "link": "https://fr.wikipedia.org/wiki/Web_storage#Local_storage"
+  },
+  {
+    "type": "mot",
+    "title": "SessionStorage",
+    "description": "Stockage temporaire de données côté client durant la session.",
+    "link": "https://fr.wikipedia.org/wiki/Web_storage#Session_storage"
+  },
+  {
+    "type": "mot",
+    "title": "IndexedDB",
+    "description": "Base de données locale côté navigateur pour stocker de grandes quantités de données.",
+    "link": "https://fr.wikipedia.org/wiki/IndexedDB"
+  },
+  {
+    "type": "mot",
+    "title": "Service Worker",
+    "description": "Script s’exécutant en arrière-plan pour gérer le cache et les notifications push.",
+    "link": "https://fr.wikipedia.org/wiki/Service_worker"
+  },
+  {
+    "type": "mot",
+    "title": "PWA",
+    "description": "Progressive Web App : application web avec fonctionnalités proches des apps natives.",
+    "link": "https://fr.wikipedia.org/wiki/Progressive_web_app"
+  },
+  {
+    "type": "mot",
+    "title": "Cache API",
+    "description": "API pour gérer le stockage et récupération de ressources web.",
+    "link": "https://fr.wikipedia.org/wiki/Service_worker#Cache_API"
+  },
+  {
+    "type": "mot",
+    "title": "IndexedDB API",
+    "description": "API JavaScript pour gérer une base de données locale côté navigateur.",
+    "link": "https://fr.wikipedia.org/wiki/IndexedDB"
+  },
+  {
+    "type": "mot",
+    "title": "WebRTC",
+    "description": "Technologie pour la communication audio, vidéo et données en temps réel dans le navigateur.",
+    "link": "https://fr.wikipedia.org/wiki/WebRTC"
+  },
+  {
+    "type": "mot",
+    "title": "Push Notification",
+    "description": "Message envoyé par un serveur vers un navigateur ou une application mobile.",
+    "link": "https://fr.wikipedia.org/wiki/Notification_push"
+  },
+  {
+    "type": "mot",
+    "title": "OAuth2",
+    "description": "Protocole d’autorisation pour accéder à des ressources protégées.",
+    "link": "https://fr.wikipedia.org/wiki/OAuth"
+  },
+  {
+    "type": "mot",
+    "title": "OpenID Connect",
+    "description": "Protocole d’authentification basé sur OAuth2.",
+    "link": "https://fr.wikipedia.org/wiki/OpenID_Connect"
+  },
+  {
+    "type": "mot",
+    "title": "JWT",
+    "description": "JSON Web Token : standard pour sécuriser l’échange d’informations.",
+    "link": "https://fr.wikipedia.org/wiki/JSON_Web_Token"
+  },
+  {
+    "type": "mot",
+    "title": "Captcha",
+    "description": "Test pour différencier un humain d’un robot sur le web.",
+    "link": "https://fr.wikipedia.org/wiki/CAPTCHA"
+  },
+  {
+    "type": "mot",
+    "title": "reCAPTCHA",
+    "description": "Service Google pour protéger les sites web contre les bots.",
+    "link": "https://fr.wikipedia.org/wiki/ReCAPTCHA"
+  },
+  {
+    "type": "mot",
+    "title": "SSL/TLS",
+    "description": "Protocoles de sécurisation des communications sur Internet.",
+    "link": "https://fr.wikipedia.org/wiki/Transport_Layer_Security"
+  },
+  {
+    "type": "mot",
+    "title": "HTTPS",
+    "description": "HTTP sécurisé avec chiffrement TLS/SSL.",
+    "link": "https://fr.wikipedia.org/wiki/HTTPS"
+  },
+  {
+    "type": "mot",
+    "title": "Firewall",
+    "description": "Système de sécurité filtrant le trafic réseau.",
+    "link": "https://fr.wikipedia.org/wiki/Pare-feu_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "VPN",
+    "description": "Réseau privé virtuel permettant de sécuriser et anonymiser les connexions Internet.",
+    "link": "https://fr.wikipedia.org/wiki/Réseau_privé_virtuel"
+  },
+  {
+    "type": "mot",
+    "title": "Proxy",
+    "description": "Serveur intermédiaire pour les requêtes réseau entre client et serveur.",
+    "link": "https://fr.wikipedia.org/wiki/Proxy_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "CDN",
+    "description": "Content Delivery Network : réseau distribué pour délivrer des contenus web rapidement.",
+    "link": "https://fr.wikipedia.org/wiki/Réseau_de_diffusion_de_contenu"
+  },
+  {
+    "type": "mot",
+    "title": "Load Balancer",
+    "description": "Dispositif répartissant le trafic entre plusieurs serveurs pour optimiser les performances.",
+    "link": "https://fr.wikipedia.org/wiki/Load_balancing"
+  },
+  {
+    "type": "mot",
+    "title": "Cloud Computing",
+    "description": "Utilisation de ressources informatiques à distance via Internet.",
+    "link": "https://fr.wikipedia.org/wiki/Cloud_computing"
+  },
+  {
+    "type": "mot",
+    "title": "SaaS",
+    "description": "Software as a Service : logiciel accessible via Internet sans installation locale.",
+    "link": "https://fr.wikipedia.org/wiki/Software_as_a_service"
+  },
+  {
+    "type": "mot",
+    "title": "PaaS",
+    "description": "Platform as a Service : plateforme pour développer et déployer des applications sans gérer l’infrastructure.",
+    "link": "https://fr.wikipedia.org/wiki/Platform_as_a_service"
+  },
+  {
+    "type": "mot",
+    "title": "IaaS",
+    "description": "Infrastructure as a Service : location de ressources informatiques telles que serveurs et stockage.",
+    "link": "https://fr.wikipedia.org/wiki/Infrastructure_as_a_service"
+  },
+  {
+    "type": "mot",
+    "title": "Edge Computing",
+    "description": "Traitement des données à proximité des appareils pour réduire la latence.",
+    "link": "https://fr.wikipedia.org/wiki/Edge_computing"
+  },
+  {
+    "type": "mot",
+    "title": "Container",
+    "description": "Environnement isolé pour exécuter une application avec toutes ses dépendances.",
+    "link": "https://fr.wikipedia.org/wiki/Conteneur_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Docker",
+    "description": "Plateforme pour créer, déployer et gérer des conteneurs.",
+    "link": "https://fr.wikipedia.org/wiki/Docker_(logiciel)"
+  },
+  {
+    "type": "mot",
+    "title": "Kubernetes",
+    "description": "Système d’orchestration de conteneurs pour automatiser le déploiement et la gestion.",
+    "link": "https://fr.wikipedia.org/wiki/Kubernetes"
+  },
+
+  {
+    "type": "mot",
+    "title": "Git",
+    "description": "Système de contrôle de version distribué pour suivre les modifications du code.",
+    "link": "https://fr.wikipedia.org/wiki/Git"
+  },
+  {
+    "type": "mot",
+    "title": "GitHub",
+    "description": "Plateforme en ligne pour héberger et gérer des projets Git.",
+    "link": "https://fr.wikipedia.org/wiki/GitHub"
+  },
+  {
+    "type": "mot",
+    "title": "GitLab",
+    "description": "Plateforme DevOps pour héberger, gérer et déployer des projets Git.",
+    "link": "https://fr.wikipedia.org/wiki/GitLab"
+  },
+  {
+    "type": "mot",
+    "title": "Branch",
+    "description": "Version parallèle du code pour le développement et les tests.",
+    "link": "https://fr.wikipedia.org/wiki/Git#Branches"
+  },
+  {
+    "type": "mot",
+    "title": "Merge",
+    "description": "Action de fusionner des modifications provenant de différentes branches.",
+    "link": "https://fr.wikipedia.org/wiki/Git#Fusion"
+  },
+  {
+    "type": "mot",
+    "title": "Commit",
+    "description": "Action d’enregistrer des modifications dans un dépôt Git.",
+    "link": "https://fr.wikipedia.org/wiki/Git#Commit"
+  },
+  {
+    "type": "mot",
+    "title": "Pull Request",
+    "description": "Proposition de fusion de modifications sur une branche principale.",
+    "link": "https://fr.wikipedia.org/wiki/Pull_request"
+  },
+  {
+    "type": "mot",
+    "title": "Clone",
+    "description": "Action de copier un dépôt Git complet sur un autre ordinateur.",
+    "link": "https://fr.wikipedia.org/wiki/Git#Cloner_un_dépôt"
+  },
+  {
+    "type": "mot",
+    "title": "Fork",
+    "description": "Copie indépendante d’un projet GitHub pour le modifier sans affecter l’original.",
+    "link": "https://fr.wikipedia.org/wiki/Fork_(Git)"
+  },
+  {
+    "type": "mot",
+    "title": "Stash",
+    "description": "Mise de côté temporaire de modifications non terminées dans Git.",
+    "link": "https://fr.wikipedia.org/wiki/Git#Stash"
+  },
+  {
+    "type": "mot",
+    "title": "CI/CD",
+    "description": "Intégration et déploiement continus pour automatiser la livraison du code.",
+    "link": "https://fr.wikipedia.org/wiki/Intégration_continue"
+  },
+  {
+    "type": "mot",
+    "title": "Jenkins",
+    "description": "Outil d’automatisation open source pour CI/CD.",
+    "link": "https://fr.wikipedia.org/wiki/Jenkins_(logiciel)"
+  },
+  {
+    "type": "mot",
+    "title": "Travis CI",
+    "description": "Service d’intégration continue pour tester et déployer automatiquement le code.",
+    "link": "https://fr.wikipedia.org/wiki/Travis_CI"
+  },
+  {
+    "type": "mot",
+    "title": "CircleCI",
+    "description": "Plateforme CI/CD pour automatiser la construction, les tests et le déploiement.",
+    "link": "https://fr.wikipedia.org/wiki/CircleCI"
+  },
+  {
+    "type": "mot",
+    "title": "Ansible",
+    "description": "Outil d’automatisation pour gérer la configuration et le déploiement de serveurs.",
+    "link": "https://fr.wikipedia.org/wiki/Ansible_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Terraform",
+    "description": "Outil pour définir et gérer l’infrastructure cloud via du code.",
+    "link": "https://fr.wikipedia.org/wiki/Terraform_(logiciel)"
+  },
+  {
+    "type": "mot",
+    "title": "Prometheus",
+    "description": "Système de surveillance open source pour collecter et analyser des métriques.",
+    "link": "https://fr.wikipedia.org/wiki/Prometheus_(logiciel)"
+  },
+  {
+    "type": "mot",
+    "title": "Grafana",
+    "description": "Plateforme open source pour visualiser des métriques et créer des tableaux de bord.",
+    "link": "https://fr.wikipedia.org/wiki/Grafana"
+  },
+  {
+    "type": "mot",
+    "title": "Nagios",
+    "description": "Logiciel open source de surveillance informatique et réseau.",
+    "link": "https://fr.wikipedia.org/wiki/Nagios"
+  },
+  {
+    "type": "mot",
+    "title": "Elasticsearch",
+    "description": "Moteur de recherche et d’analyse de données en temps réel.",
+    "link": "https://fr.wikipedia.org/wiki/Elasticsearch"
+  },
+  {
+    "type": "mot",
+    "title": "Logstash",
+    "description": "Pipeline open source pour collecter, transformer et envoyer des logs.",
+    "link": "https://fr.wikipedia.org/wiki/Logstash"
+  },
+  {
+    "type": "mot",
+    "title": "Kibana",
+    "description": "Outil de visualisation et exploration des données Elasticsearch.",
+    "link": "https://fr.wikipedia.org/wiki/Kibana"
+  },
+  {
+    "type": "mot",
+    "title": "ELK Stack",
+    "description": "Ensemble Elasticsearch, Logstash et Kibana pour l’analyse de logs.",
+    "link": "https://fr.wikipedia.org/wiki/ELK_Stack"
+  },
+  {
+    "type": "mot",
+    "title": "Monitoring",
+    "description": "Surveillance des systèmes et applications pour détecter les anomalies.",
+    "link": "https://fr.wikipedia.org/wiki/Surveillance_informatique"
+  },
+  {
+    "type": "mot",
+    "title": "Alerting",
+    "description": "Mécanisme d’alerte déclenché lors d’un événement critique dans le système.",
+    "link": "https://fr.wikipedia.org/wiki/Alerting"
+  },
+  {
+    "type": "mot",
+    "title": "Incident Management",
+    "description": "Processus pour détecter, résoudre et documenter les incidents informatiques.",
+    "link": "https://fr.wikipedia.org/wiki/ITIL#Gestion_des_incidents"
+  },
+  {
+    "type": "mot",
+    "title": "ITIL",
+    "description": "Bibliothèque de bonnes pratiques pour la gestion des services informatiques.",
+    "link": "https://fr.wikipedia.org/wiki/Information_Technology_Infrastructure_Library"
+  },
+  {
+    "type": "mot",
+    "title": "Agile",
+    "description": "Méthodologie de gestion de projet favorisant l’adaptabilité et la collaboration.",
+    "link": "https://fr.wikipedia.org/wiki/Méthodes_agiles"
+  },
+  {
+    "type": "mot",
+    "title": "Scrum",
+    "description": "Cadre Agile pour organiser et planifier le développement de projets.",
+    "link": "https://fr.wikipedia.org/wiki/Scrum_(gestion_de_projet)"
+  },
+  {
+    "type": "mot",
+    "title": "Kanban",
+    "description": "Méthode de gestion visuelle pour suivre l’avancement du travail.",
+    "link": "https://fr.wikipedia.org/wiki/Kanban_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Sprint",
+    "description": "Période de développement courte et itérative dans Scrum.",
+    "link": "https://fr.wikipedia.org/wiki/Sprint_(gestion_de_projet)"
+  },
+  {
+    "type": "mot",
+    "title": "Backlog",
+    "description": "Liste priorisée des fonctionnalités et tâches à réaliser.",
+    "link": "https://fr.wikipedia.org/wiki/Backlog"
+  },
+  {
+    "type": "mot",
+    "title": "User Story",
+    "description": "Description concise d’une fonctionnalité du point de vue de l’utilisateur.",
+    "link": "https://fr.wikipedia.org/wiki/User_story"
+  },
+  {
+    "type": "mot",
+    "title": "Bug",
+    "description": "Erreur ou défaut dans un programme informatique.",
+    "link": "https://fr.wikipedia.org/wiki/Bug_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Patch",
+    "description": "Correction appliquée à un logiciel pour résoudre un bug ou une vulnérabilité.",
+    "link": "https://fr.wikipedia.org/wiki/Patch_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Versioning",
+    "description": "Gestion des différentes versions d’un logiciel ou document.",
+    "link": "https://fr.wikipedia.org/wiki/Versionning"
+  },
+  {
+    "type": "mot",
+    "title": "Release",
+    "description": "Publication d’une version stable d’un logiciel.",
+    "link": "https://fr.wikipedia.org/wiki/Logiciel#Cycle_de_vie_d’un_logiciel"
+  },
+  {
+    "type": "mot",
+    "title": "Changelog",
+    "description": "Journal des modifications apportées à chaque version d’un logiciel.",
+    "link": "https://fr.wikipedia.org/wiki/Changelog"
+  },
+  {
+    "type": "mot",
+    "title": "Dependency",
+    "description": "Bibliothèque ou module externe utilisé par un projet.",
+    "link": "https://fr.wikipedia.org/wiki/Dépendance_logicielle"
+  },
+  {
+    "type": "mot",
+    "title": "Package Manager",
+    "description": "Outil pour installer, mettre à jour et gérer les dépendances d’un projet.",
+    "link": "https://fr.wikipedia.org/wiki/Gestionnaire_de_paquets"
+  },
+  {
+    "type": "mot",
+    "title": "npm",
+    "description": "Gestionnaire de paquets pour JavaScript et Node.js.",
+    "link": "https://fr.wikipedia.org/wiki/Npm_(logiciel)"
+  },
+  {
+    "type": "mot",
+    "title": "yarn",
+    "description": "Gestionnaire de paquets alternatif pour JavaScript.",
+    "link": "https://fr.wikipedia.org/wiki/Yarn_(gestionnaire_de_paquets)"
+  },
+  {
+    "type": "mot",
+    "title": "Composer",
+    "description": "Gestionnaire de dépendances pour PHP.",
+    "link": "https://fr.wikipedia.org/wiki/Composer_(logiciel)"
+  },
+  {
+    "type": "mot",
+    "title": "Pip",
+    "description": "Gestionnaire de paquets pour Python.",
+    "link": "https://fr.wikipedia.org/wiki/Pip_(logiciel)"
+  },
+  {
+    "type": "mot",
+    "title": "Virtualenv",
+    "description": "Outil Python pour créer des environnements isolés pour les projets.",
+    "link": "https://fr.wikipedia.org/wiki/Environnement_virtuel_(Python)"
+  },
+  {
+    "type": "mot",
+    "title": "Docker Compose",
+    "description": "Outil pour définir et gérer des applications multi-conteneurs Docker.",
+    "link": "https://fr.wikipedia.org/wiki/Docker_Compose"
+  },
+  {
+    "type": "mot",
+    "title": "Microservices",
+    "description": "Architecture où les fonctionnalités d’une application sont réparties en services indépendants.",
+    "link": "https://fr.wikipedia.org/wiki/Microservices"
+  },
+  {
+    "type": "mot",
+    "title": "Monolithique",
+    "description": "Architecture où toutes les fonctionnalités sont regroupées dans une seule application.",
+    "link": "https://fr.wikipedia.org/wiki/Architecture_monolithique"
+  },
+
+  {
+    "type": "mot",
+    "title": "RESTful",
+    "description": "Style d’architecture pour concevoir des API web en respectant REST.",
+    "link": "https://fr.wikipedia.org/wiki/Representational_State_Transfer"
+  },
+  {
+    "type": "mot",
+    "title": "SOAP",
+    "description": "Protocole pour échanger des informations structurées entre services web.",
+    "link": "https://fr.wikipedia.org/wiki/SOAP"
+  },
+  {
+    "type": "mot",
+    "title": "GraphQL",
+    "description": "Langage de requête pour API permettant de récupérer uniquement les données nécessaires.",
+    "link": "https://fr.wikipedia.org/wiki/GraphQL"
+  },
+  {
+    "type": "mot",
+    "title": "JSON",
+    "description": "JavaScript Object Notation : format léger pour échanger des données.",
+    "link": "https://fr.wikipedia.org/wiki/JSON"
+  },
+  {
+    "type": "mot",
+    "title": "XML",
+    "description": "Extensible Markup Language : format de données structuré.",
+    "link": "https://fr.wikipedia.org/wiki/XML"
+  },
+  {
+    "type": "mot",
+    "title": "YAML",
+    "description": "Format lisible par l’homme pour représenter des données.",
+    "link": "https://fr.wikipedia.org/wiki/YAML"
+  },
+  {
+    "type": "mot",
+    "title": "CSV",
+    "description": "Comma-Separated Values : format texte pour stocker des données tabulaires.",
+    "link": "https://fr.wikipedia.org/wiki/CSV"
+  },
+  {
+    "type": "mot",
+    "title": "Database",
+    "description": "Système pour stocker et gérer des données de manière structurée.",
+    "link": "https://fr.wikipedia.org/wiki/Base_de_données"
+  },
+  {
+    "type": "mot",
+    "title": "SQL",
+    "description": "Structured Query Language : langage pour interroger et manipuler des bases de données.",
+    "link": "https://fr.wikipedia.org/wiki/SQL"
+  },
+  {
+    "type": "mot",
+    "title": "NoSQL",
+    "description": "Bases de données non relationnelles adaptées aux grands volumes de données.",
+    "link": "https://fr.wikipedia.org/wiki/Base_de_données_NoSQL"
+  },
+  {
+    "type": "mot",
+    "title": "MongoDB",
+    "description": "Base de données NoSQL orientée documents.",
+    "link": "https://fr.wikipedia.org/wiki/MongoDB"
+  },
+  {
+    "type": "mot",
+    "title": "Cassandra",
+    "description": "Base de données NoSQL distribuée, adaptée aux gros volumes de données.",
+    "link": "https://fr.wikipedia.org/wiki/Apache_Cassandra"
+  },
+  {
+    "type": "mot",
+    "title": "Redis",
+    "description": "Base de données en mémoire clé-valeur rapide.",
+    "link": "https://fr.wikipedia.org/wiki/Redis"
+  },
+  {
+    "type": "mot",
+    "title": "PostgreSQL",
+    "description": "Système de gestion de base de données relationnelle open source.",
+    "link": "https://fr.wikipedia.org/wiki/PostgreSQL"
+  },
+  {
+    "type": "mot",
+    "title": "MySQL",
+    "description": "Système de gestion de base de données relationnelle open source.",
+    "link": "https://fr.wikipedia.org/wiki/MySQL"
+  },
+  {
+    "type": "mot",
+    "title": "SQLite",
+    "description": "Base de données relationnelle légère intégrée dans les applications.",
+    "link": "https://fr.wikipedia.org/wiki/SQLite"
+  },
+  {
+    "type": "mot",
+    "title": "ORM",
+    "description": "Object-Relational Mapping : technique pour convertir des données entre bases et objets.",
+    "link": "https://fr.wikipedia.org/wiki/Mapping_objet-relationnel"
+  },
+  {
+    "type": "mot",
+    "title": "Migration",
+    "description": "Processus de modification de la structure d’une base de données.",
+    "link": "https://fr.wikipedia.org/wiki/Migration_de_base_de_données"
+  },
+  {
+    "type": "mot",
+    "title": "Index",
+    "description": "Structure de données pour accélérer la recherche dans une base de données.",
+    "link": "https://fr.wikipedia.org/wiki/Index_(base_de_données)"
+  },
+  {
+    "type": "mot",
+    "title": "Query",
+    "description": "Requête utilisée pour interroger une base de données.",
+    "link": "https://fr.wikipedia.org/wiki/SQL#Requêtes"
+  },
+  {
+    "type": "mot",
+    "title": "Join",
+    "description": "Opération SQL pour combiner des données de plusieurs tables.",
+    "link": "https://fr.wikipedia.org/wiki/SQL#Jointure"
+  },
+  {
+    "type": "mot",
+    "title": "Primary Key",
+    "description": "Clé principale identifiant de manière unique un enregistrement.",
+    "link": "https://fr.wikipedia.org/wiki/Clé_primarie"
+  },
+  {
+    "type": "mot",
+    "title": "Foreign Key",
+    "description": "Clé étrangère reliant une table à une autre dans une base relationnelle.",
+    "link": "https://fr.wikipedia.org/wiki/Clé_étrangère"
+  },
+  {
+    "type": "mot",
+    "title": "Normalization",
+    "description": "Processus pour organiser les données et réduire la redondance.",
+    "link": "https://fr.wikipedia.org/wiki/Normalisation_des_bases_de_données"
+  },
+  {
+    "type": "mot",
+    "title": "Denormalization",
+    "description": "Processus inverse de la normalisation pour optimiser les performances.",
+    "link": "https://fr.wikipedia.org/wiki/Dénormalisation"
+  },
+  {
+    "type": "mot",
+    "title": "Backup",
+    "description": "Copie de sécurité des données pour prévenir la perte.",
+    "link": "https://fr.wikipedia.org/wiki/Sauvegarde_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Restore",
+    "description": "Restauration des données à partir d’une sauvegarde.",
+    "link": "https://fr.wikipedia.org/wiki/Restauration_de_sauvegarde"
+  },
+  {
+    "type": "mot",
+    "title": "Replication",
+    "description": "Copie et synchronisation des données sur plusieurs serveurs.",
+    "link": "https://fr.wikipedia.org/wiki/Réplication_de_base_de_données"
+  },
+  {
+    "type": "mot",
+    "title": "Sharding",
+    "description": "Répartition des données sur plusieurs serveurs pour gérer de gros volumes.",
+    "link": "https://fr.wikipedia.org/wiki/Sharding"
+  },
+  {
+    "type": "mot",
+    "title": "ACID",
+    "description": "Propriétés garantissant la fiabilité des transactions en base de données.",
+    "link": "https://fr.wikipedia.org/wiki/ACID_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "CAP Theorem",
+    "description": "Principe limitant simultanément cohérence, disponibilité et tolérance aux partitions.",
+    "link": "https://fr.wikipedia.org/wiki/Théorème_CAP"
+  },
+  {
+    "type": "mot",
+    "title": "Transaction",
+    "description": "Ensemble d’opérations traitées comme une seule unité atomique.",
+    "link": "https://fr.wikipedia.org/wiki/Transaction_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Lock",
+    "description": "Verrouillage d’un enregistrement pour éviter les conflits concurrentiels.",
+    "link": "https://fr.wikipedia.org/wiki/Verrouillage_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Deadlock",
+    "description": "Situation où deux processus se bloquent mutuellement.",
+    "link": "https://fr.wikipedia.org/wiki/Interblocage"
+  },
+  {
+    "type": "mot",
+    "title": "Concurrency",
+    "description": "Exécution simultanée de plusieurs processus ou threads.",
+    "link": "https://fr.wikipedia.org/wiki/Concurrence_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Thread",
+    "description": "Unité d’exécution indépendante dans un processus.",
+    "link": "https://fr.wikipedia.org/wiki/Thread_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Process",
+    "description": "Programme en cours d’exécution sur un ordinateur.",
+    "link": "https://fr.wikipedia.org/wiki/Processus_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Multithreading",
+    "description": "Exécution simultanée de plusieurs threads dans un même processus.",
+    "link": "https://fr.wikipedia.org/wiki/Multithreading"
+  },
+  {
+    "type": "mot",
+    "title": "Multiprocessing",
+    "description": "Exécution simultanée de plusieurs processus sur un ordinateur.",
+    "link": "https://fr.wikipedia.org/wiki/Multiprocessing"
+  },
+  {
+    "type": "mot",
+    "title": "Scheduler",
+    "description": "Composant du système d’exploitation qui décide quel processus exécuter.",
+    "link": "https://fr.wikipedia.org/wiki/Ordonnanceur_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Context Switch",
+    "description": "Changement de contexte d’un processus à un autre par le système d’exploitation.",
+    "link": "https://fr.wikipedia.org/wiki/Changement_de_contexte"
+  },
+  {
+    "type": "mot",
+    "title": "Semaphore",
+    "description": "Mécanisme pour gérer l’accès concurrent à des ressources partagées.",
+    "link": "https://fr.wikipedia.org/wiki/Sémaphore_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Mutex",
+    "description": "Objet utilisé pour protéger l’accès exclusif à une ressource partagée.",
+    "link": "https://fr.wikipedia.org/wiki/Mutual_exclusion"
+  },
+  {
+    "type": "mot",
+    "title": "Race Condition",
+    "description": "Situation où le résultat dépend de l’ordre d’exécution de plusieurs threads.",
+    "link": "https://fr.wikipedia.org/wiki/Condition_de_course"
+  },
+  {
+    "type": "mot",
+    "title": "Deadlock Detection",
+    "description": "Technique pour identifier et résoudre les interblocages.",
+    "link": "https://fr.wikipedia.org/wiki/Interblocage#Détection"
+  },
+  {
+    "type": "mot",
+    "title": "Garbage Collection",
+    "description": "Processus automatique de libération de mémoire inutilisée.",
+    "link": "https://fr.wikipedia.org/wiki/Garbage_collection_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Memory Leak",
+    "description": "Fuite de mémoire causée par des allocations non libérées.",
+    "link": "https://fr.wikipedia.org/wiki/Fuite_de_mémoire"
+  },
+  {
+    "type": "mot",
+    "title": "Heap",
+    "description": "Zone de mémoire utilisée pour l’allocation dynamique.",
+    "link": "https://fr.wikipedia.org/wiki/Heap_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Stack",
+    "description": "Zone de mémoire utilisée pour stocker les appels de fonctions et variables locales.",
+    "link": "https://fr.wikipedia.org/wiki/Pile_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Pointer",
+    "description": "Variable contenant l’adresse mémoire d’une autre variable.",
+    "link": "https://fr.wikipedia.org/wiki/Pointeur_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Reference",
+    "description": "Lien direct vers un objet en mémoire plutôt que sa copie.",
+    "link": "https://fr.wikipedia.org/wiki/Référence_(informatique)"
+  },
+  {
+    "type": "mot",
+    "title": "Garbage Collector",
+    "description": "Composant qui libère automatiquement la mémoire inutilisée dans les langages managés.",
+    "link": "https://fr.wikipedia.org/wiki/Garbage_collection_(informatique)"
   }
 ]

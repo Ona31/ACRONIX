@@ -108,10 +108,13 @@
         justify-content: center;
         align-items: center;
         padding: 1rem ;
-        width: 50%;
+        width: 60%;
     }
     .intro p{
         text-align: center;
+    }
+    .intro p strong{
+        color: var(--var-primary);
     }
   .input{
     display: flex;
@@ -176,6 +179,20 @@
   }
   .card .description{
     color: var(--text-accent);
+  }
+  a{
+    display: flex;
+    text-decoration: none;
+    color: var(--var-primary);
+    font-weight: 200;
+    font-size: 12px;
+    margin: 0.5rem 0;
+    align-items: center;
+  }a:hover{
+    color: var(--text-accent);
+  }
+  a i{
+    margin-right: 1rem;
   }
 
 ::-webkit-scrollbar{
