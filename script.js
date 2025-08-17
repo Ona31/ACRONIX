@@ -24,34 +24,32 @@ const toggleBtn = document.getElementById('toggleTheme');
         }
     });
     //===================================================================
-    
-// Cibler les éléments HTML
-const searchInput = document.getElementById("input");
+    const searchInput = document.getElementById("input");
 const results = document.getElementById("results");
 const nb = document.getElementById("nb");
 
-let data = []; // on stockera les données ici
+let data = []; // stockage des données
+let timeout;
 
 // Fonction pour afficher les résultats
 function render(list) {
   results.innerHTML = "";
-
-  if (list.length === 0) {
-    results.innerHTML = "<p><i class ='fas fa-question '></i> Aucun résultat trouvé </p>";
+  if(list.length === 0){
+    results.innerHTML = "<p><i class='fas fa-question'></i> Aucun résultat trouvé</p>";
+    nb.innerHTML = "0";
     return;
   }
-
   list.forEach(item => {
     results.innerHTML += `
       <div class="card">
         <div class="title">${item.title}</div>
         <div class="type">${item.type}</div>
         <div class="description">${item.description}</div>
-       <a href=${item.link}><i class="fas fa-link"></i> voir plus des descriptions
-</a>
+        <a href="${item.link}" target="_blank"><i class="fas fa-link"></i> Voir plus</a>
       </div>
     `;
   });
+  nb.innerHTML = list.length; // afficher le nombre de résultats
 }
 
 // Fonction de recherche
@@ -68,15 +66,17 @@ function search(query) {
 fetch("data.json")
   .then(response => response.json())
   .then(json => {
-    data = json;          // on stocke les données
+    data = json;          // stocker les données
     render(data);         // affichage initial
-    const totalWords = data.length;
-    nb.innerHTML = totalWords;
+    nb.innerHTML = data.length; // nombre total d'entrées
   })
   .catch(error => console.error("Erreur de chargement JSON :", error));
 
-// Détecter la saisie dans la barre de recherche
+// Détecter la saisie avec debounce (300ms)
 searchInput.addEventListener("input", () => {
-  const query = searchInput.value.toLowerCase();
-  search(query);
+  const query = searchInput.value.trim().toLowerCase();
+  clearTimeout(timeout);
+  timeout = setTimeout(() => {
+    search(query);
+  }, 300);
 });
