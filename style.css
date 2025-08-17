@@ -217,6 +217,8 @@
 
     #submit {
         padding: 0.8rem;
+        justify-content: center;
+        align-items: center;
     }
 
     .resultat {
