@@ -110,6 +110,7 @@
         padding: 1rem ;
         width: 50%;
     }
+
     .intro p{
         text-align: center;
     }
@@ -323,6 +324,9 @@
         padding: 0.5rem;
     }.intro p{
         font-size: 10px;
+    }.intro h1{
+        font-size: 18px;
+        text-align: center;
     }
 
     .input {
