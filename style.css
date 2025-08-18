@@ -1,411 +1,264 @@
- *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
-    /* =================== VARIABLES =================== */
-    html{
-        --var-primary: #f0882d;
-        --var-dark: #171717;
-        --var-white: #fafafa;
-        --cart: #262626;
-        --text: #ffffff;
-        --text-accent: #a3a3a3;
-        --border: #404040;
-        --res : #24232377;
-    }
-
-    /* =================== BODY =================== */
-    body{
-        min-height: 100vh;
-        background-color: var(--var-dark);
-        color: var(--text);
-        transition: background-color 0.3s, color 0.3s;
-    }
-
-    /* =================== MODE CLAIR =================== */
-    body.white-mode {
-        --var-dark: #fafafa;
-        --var-white: #171717;
-        --cart: #f0f0f0;
-        --text: #171717;
-        --text-accent: #555555;
-        --border: #cccccc;
-        background-color: var(--var-dark);
-        color: var(--var-white);
-    }
-
-    /* =================== HEADER =================== */
-    header{
-        display: flex;
-        width: 100%;
-        position: fixed;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1rem 4rem;
-        color: var(--text);
-        transition: background-color 0.3s, color 0.3s;
-        background: var(--var-dark);
-        backdrop-filter: blur(5px);
-    }
-    .logo{
-        display: flex;
-        align-items: center;
-    }
-    .logo h1{
-        color: var(--text);
-        margin-left: 0.5rem;
-    }
-    .logo h1 i{
-        color: var(--var-primary);
-    }
-
-    /* =================== BOUTONS =================== */
-    .mode button{
-        display: flex;
-        align-items: center;
-        background-color: var(--cart);
-        border: 1px solid var(--border);
-        padding: 0.5rem 1rem;
-        border-radius: 5px;
-        color: var(--text);
-        cursor: pointer;
-        backdrop-filter: blur(4px);
-        transition: all 0.3s ease-in-out;
-    }
-    .mode button:hover{
-        box-shadow: 0px 0px 5px var(--var-primary);
-        border: 1px solid var(--var-primary);
-    }
-    .mode button i{
-        margin-right: 5px;
-        color: var(--var-primary);
-    }
-
-    /* =================== TEXTE =================== */
-    h1, h2, h3, p, span{
-        color: var(--text);
-        transition: color 0.3s;
-    }
-
-    p{
-        color: var(--text-accent);
-        font-size: 15px;
-
-    }
-
-    main{
-        display: flex;
-        width: 100%;
-        height: 100vh;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 5rem;
-    }
-    .intro{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 1rem ;
-        width: 50%;
-    }
-
-    .intro p{
-        text-align: center;
-    }
-  strong{
-        color: var(--var-primary);
-    }
-  .input{
-    display: flex;
-    width: 60%;
-    align-items: center;
-    background-color: var(--cart);
-    border: 1px solid var(--border);
-    border-radius: 50px;
-    justify-content: space-between;
-    align-items: center;
-
-  }
-  input{
-    border: none;
-    background: transparent;
-      padding: 1rem 2rem;
-    margin: 0 1rem;
-    outline: none;
-    color: var(--text);
-    width: 80%;
-  }
-  input::placeholder{
-    color: var(--text-accent);
-  }
-  #submit{
-    display: flex;
-     background: linear-gradient(135deg, #f0882d, #fc3b3e);
-    padding: 1rem;
-    border-radius: 100%;
-     border: none;
-  }
-  #submit i{
-    color: var(--var-white);
-   
-  }
-  
-  .resultat{
-    width: 60%;
-    background-color: transparent;
-    backdrop-filter: blur(5px);
-    height: 100%;
-    margin: 2rem 0;
-    border-radius: 20px;
-    border: 1px solid var(--border);
-    overflow: auto;
-    padding: 1rem;
-
-  }
-  .card{
-     background-color: var(--cart);
-    backdrop-filter: blur(5px);
-    margin: 2rem 0;
-    border-radius: 20px;
-    border: 1px solid var(--border);
-    padding: 2rem;
-  }
-  .card .title{
-    color: var(--var-primary);
-  }
-  .card .type{
-    color: var(--text);
-  }
-  .card .description{
-    color: var(--text-accent);
-  }
-  a{
-    display: flex;
-    text-decoration: none;
-    color: var(--var-primary);
-    font-weight: 200;
-    font-size: 12px;
-    margin: 0.5rem 0;
-    align-items: center;
-  }a:hover{
-    color: var(--text-accent);
-  }
-  a i{
-    margin-right: 1rem;
-  }
-
-::-webkit-scrollbar{
-    display: none;
-}
-/* Bouton flottant *//* Style du bouton */
-/* Bouton flottant */
-#devButton {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: linear-gradient(135deg, #f0882d, #fc3b3e);
-  color: #fff;
-  border: none;
-  padding: 0.8rem 1.5rem;
-  border-radius: 50px;
-  cursor: pointer;
-  font-weight: bold;
+/* =================== RESET =================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  box-shadow: 0 8px 15px rgba(0,0,0,0.3);
-  transition: all 0.3s ease;
-  z-index: 1000;
 }
 
-#devButton:hover {
-  transform: translateY(-4px) scale(1.05);
-  box-shadow: 0 12px 20px rgba(0,0,0,0.5);
+/* =================== VARIABLES =================== */
+:root {
+  --var-primary: #f0882d;
+  --var-dark: #171717;
+  --var-white: #fafafa;
+  --cart: #262626;
+  --text: #ffffff;
+  --text-accent: #a3a3a3;
+  --border: #404040;
+  --res: #24232377;
 }
 
-/* Modal */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 2000;
-  left: 0;
-  top: 0;
+body {
+  min-height: 100vh;
+  background-color: var(--var-dark);
+  color: var(--text);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* =================== MODE CLAIR =================== */
+body.white-mode {
+  --var-dark: #fafafa;
+  --var-white: #171717;
+  --cart: #f0f0f0;
+  --text: #171717;
+  --text-accent: #555;
+  --border: #ccc;
+  background-color: var(--var-dark);
+  color: var(--var-white);
+}
+
+/* =================== HEADER =================== */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.359);
-  backdrop-filter: blur(10px);
-  padding-top: 50px;
+  position: fixed;
+  padding: 1rem 4rem;
+  color: var(--text);
+  background: var(--var-dark);
+  backdrop-filter: blur(5px);
+  transition: background-color 0.3s, color 0.3s;
+  animation: slideUp 1.45s cubic-bezier(.22,.61,.36,1) both;
+  
+
 }
 
-.modal-content {
-  background-color:var(--var-dark);
-  color: #fff;
-  margin: 5% auto;
-  padding: 2rem;
-  border-radius: 15px;
-  width: 90%;
-  max-width: 400px;
-  box-shadow: 0 8px 15px rgba(0,0,0,0.4);
-  text-align: center;
-  animation: slideIn 0.4s ease;
+.logo {
+  display: flex;
+  align-items: center;
 }
-
-@keyframes slideIn {
-  from { transform: translateY(-50px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
+.logo h1 {
+  color: var(--text);
+  margin-left: 0.5rem;
 }
-
-.close {
-  color: var(--var-dark);
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-/* Profile header */
-.profile-header {
-  margin-bottom: 20px;
-}
-
-.profile-img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid var(--var-primary);
-  margin-bottom: 10px;
-}
-
-/* Profile links */
-.profile-links a {
-  display: inline-block;
-  margin: 5px 10px;
-  color: var(--text-accent);
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s;
-}
-
-.profile-links a i {
-  margin-right: 5px;
-}
-
-.profile-links a:hover {
+.logo h1 i {
   color: var(--var-primary);
 }
 
-/* Profile about */
-.profile-about {
-  margin-top: 15px;
-  font-size: 14px;
-  color: #a3a3a3;
+/* =================== BOUTONS =================== */
+.mode {
+  display: flex;
+  align-items: center;
+}
+.mode a{
+  font-size: 18px;
+}
+.mode button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: var(--cart);
+  border: 1px solid var(--border);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: var(--text);
+  cursor: pointer;
+  backdrop-filter: blur(4px);
+  transition: all 0.3s ease-in-out;
+}
+.mode button:hover {
+  box-shadow: 0 0 5px var(--var-primary);
+  border-color: var(--var-primary);
+}
+.mode button i {
+  color: var(--var-primary);
 }
 
+/* =================== TEXTE =================== */
+h1, h2, h3, p, span {
+  color: var(--text);
+  transition: color 0.3s;
+}
+p {
+  color: var(--text-accent);
+  font-size: 15px;
+}
+strong {
+  color: var(--var-primary);
+}
 
-/* =================== RESPONSIVE POUR SMARTPHONE =================== */
+/* =================== MAIN =================== */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  padding-top: 5rem;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-bottom: 1px dashed var(--border);
+  animation: slideUp 1.50s cubic-bezier(.22,.61,.36,1) both;
+
+
+}
+
+/* =================== INPUT =================== */
+.input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  background-color: var(--cart);
+  border: 1px solid var(--border);
+  border-radius: 50px;
+  animation: slideUp 1.55s cubic-bezier(.22,.61,.36,1) both;
+
+}
+.input input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  padding: 1rem 2rem;
+  color: var(--text);
+  outline: none;
+}
+.input input::placeholder {
+  color: var(--text-accent);
+}
+#submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--cart);
+  border: 1px solid var(--border);
+  border: none;
+  border-radius: 50%;
+  padding: 1rem;
+}
+#submit i {
+  color: var(--var-white);
+}
+
+/* =================== RESULTATS =================== */
+.resultat {
+  width: 60%;
+  margin: 2rem 0;
+  padding: 1rem;
+  height: 100%;
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+  border: 1px dashed var(--border);
+  border-radius: 20px;
+  overflow: auto;
+    animation: slideUp 1.60s cubic-bezier(.22,.61,.36,1) both;
+
+
+}
+.card {
+  margin: 2rem 0;
+  padding: 2rem;
+  background-color: var(--cart);
+  backdrop-filter: blur(5px);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+}
+.card .title {
+  color: var(--var-primary);
+}
+.card .type {
+  color: var(--text);
+}
+.card .description {
+  color: var(--text-accent);
+}
+
+/* =================== LIENS =================== */
+a {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+  font-size: 12px;
+  font-weight: 200;
+  text-decoration: none;
+  color: var(--var-primary);
+}
+a:hover {
+  color: var(--text-accent);
+}
+a i {
+  margin-right: 1rem;
+}
+
+/* =================== SCROLLBAR =================== */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* =================== RESPONSIVE =================== */
 @media screen and (max-width: 768px) {
-    header {
-        padding: 1rem 2rem;
-        gap: 0.5rem;
-    }
-
-    .logo h1 {
-        font-size: 2rem;
-    }
-
-    main {
-        padding-top: 4rem;
-    }
-
-    .intro {
-        width: 90%;
-        padding: 0.5rem;
-    }.intro p{
-        font-size: 10px;
-    }.intro h1{
-        font-size: 18px;
-        text-align: center;
-    }
-
-    .input {
-        width: 90%;
-        padding: 0.5rem;
-    }
-
-    input {
-        padding: 0.8rem 0;
-        width: 75%;
-    }
-
-    #submit {
-        padding: 0.8rem;
-        justify-content: center;
-        align-items: center;
-        background: transparent;
-    }
-
-    .resultat {
-        width: 90%;
-        margin: 1rem 0;
-        padding: 0.8rem;
-        border: none;
-    }
-
-    .card {
-        padding: 1rem;
-        margin: 1rem 0;
-    }
-
-    .card .title {
-        font-size: 1.1rem;
-    }
-
-    p, .card .description {
-        font-size: 14px;
-    }
+  header {
+    padding: 1rem 2rem;
+    gap: 0.5rem;
+  }
+  .logo h1 { font-size: 2rem; }
+  main { padding-top: 4rem; }
+  .intro { width: 90%; padding: 0.5rem; }
+  .intro p { font-size: 10px; }
+  .intro h1 { font-size: 18px; text-align: center; }
+  .input { width: 90%; padding: 0.5rem; }
+  .input input { padding: 0.8rem 0; }
+  #submit { background: transparent; padding: 0.8rem; }
+  .resultat { width: 90%; margin: 1rem 0; padding: 0.8rem; border: none; }
+  .card { padding: 1rem; margin: 1rem 0; }
+  .card .title { font-size: 1.1rem; }
+  p, .card .description { font-size: 14px; }
 }
 
-/* Pour les très petits écrans (<480px) */
 @media screen and (max-width: 480px) {
-    header {
-        padding: 0.8rem 1rem;
-    }
+  header { padding: 0.8rem 1rem; }
+  .logo h1 { font-size: 1.5rem; }
+  .input { gap: 0.5rem; padding: 0.5rem; }
+  .input input { padding: 0.6rem 0.8rem; }
+  #submit { width: 50px; height: 50px; padding: 0; }
+  .resultat { width: 95%; padding: 0.5rem; }
+  .card { padding: 0.8rem; }
+  p, .card .description { font-size: 13px; }
+}
 
-    .logo h1 {
-        font-size: 1.5rem;
-    }
+/*================ ANIMATIONS ===============*/
 
-    .input {
-        
-        gap: 0.5rem;
-        padding: 0.5rem;
-    }
 
-    input {
-        width: 100%;
-        padding: 0.6rem 0.8rem;
-    }
-
-    #submit {
-        width: 50px;
-        height: 50px;
-        padding: 0;
-    }
-
-    .resultat {
-        width: 95%;
-        padding: 0.5rem;
-    }
-
-    .card {
-        padding: 0.8rem;
-    }
-
-    p, .card .description {
-        font-size: 13px;
-    }
+/* Apparition en glissant vers le haut */
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(12px) }
+  to   { opacity: 1; transform: translateY(0) }
 }

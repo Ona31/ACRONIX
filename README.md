@@ -1,22 +1,22 @@
-# Dictionnaire Informatique
+ACRONIX 🌐
+------------------------------------------------------------------------------------------
 
-Une application web/mobile pour rechercher des **mots**, **acronymes** et **personnalités** liés à l'informatique.
+ACRONIX est votre dictionnaire interactif pour termes et acronymes informatiques, idéal pour étudiants, professionnels et curieux du numérique.
 
-## Fonctionnalités
+Fonctionnalités
 
-- Recherche instantanée de termes informatiques
-- Affichage de la définition et du type (mot, acronyme, personne)
-- Accès à des liens externes pour en savoir plus
-- Interface simple et responsive
+#🔍 Recherche instantanée de mots et acronymes
 
-## Technologies utilisées
+#📖 Affichage clair des définitions et types (mot, acronyme)
 
-- HTML / CSS / JavaScript
-- JSON pour stocker les données
-- Optionnel : API REST pour enrichir le dictionnaire
+🌐 Liens externes pour approfondir vos connaissances
 
-## Installation
+📱 Interface responsive, adaptée au web et mobile
 
-1. Cloner le dépôt
-```bash
-git clone https://github.com/ton-compte/dictionnaire-informatique.git
+Technologies utilisées
+
+💻 HTML / CSS / JavaScript
+
+📂 JSON pour stocker les données
+
+🔗 Optionnel : API REST pour enrichir le dictionnaire
